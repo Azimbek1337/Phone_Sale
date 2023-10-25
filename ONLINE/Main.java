@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import static ONLINE.ConstantTil.*;
 
+
 public class Main {
     static String[] users = {"+998901111111", "+998902222222" ,"+998903333333", "+998904444444"};
     static String[] Admins = {"+998901111111", "+998902222221" ,"+998903333332", "+998904444443"};
@@ -42,7 +43,18 @@ public class Main {
                     ? FIRST_MESSAGE_RU
                     : FIRST_MESSAGE_UZ);
 
-
+            int kiritilganSon = (new Scanner(System.in).nextInt());
+            switch (kiritilganSon) {
+                case 1:
+                    Methods.register();
+                    break;
+                case 2:
+                    Methods.login();
+                    break;
+                default:
+                    System.out.println("");
+            }
+        }
 
 //            System.out.println(til == 'e' ? FIRST_MESSAGE_ENG : FIRST_MESSAGE);
     }
