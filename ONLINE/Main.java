@@ -8,7 +8,7 @@ import static ONLINE.ConstantTil.*;
 public class Main {
     static String[] users = {"+998901111111", "+998902222222" ,"+998903333333", "+998904444444"};
     static String[] Admins = {"+998901111111", "+998902222221" ,"+998903333332", "+998904444443"};
-    static String[] Passwords = {"Azim1", "User2" ,"User3", "User3"};
+    static String[] Passwords = {"Azim1", "User2" ,"User3", "User8"};
     static String[] adminPasswords = {"Azim1", "AdminUser2" ,"AdminUser3", "AdminUser3"};
     static char til = EN;
 
@@ -46,10 +46,10 @@ public class Main {
             int kiritilganSon = (new Scanner(System.in).nextInt());
             switch (kiritilganSon) {
                 case 1:
-                    Methods.register();
+                      Methods.login();
                     break;
                 case 2:
-                    Methods.login();
+                    Methods.register();
                     break;
                 default:
                     System.out.println("");
@@ -59,4 +59,4 @@ public class Main {
 //            System.out.println(til == 'e' ? FIRST_MESSAGE_ENG : FIRST_MESSAGE);
     }
     }
-}
+
