@@ -112,6 +112,11 @@ public class     Methods {
     }
     public static void menuphone() {
         System.out.println("Telefon brendini tanlang");
+        System.out.println("""
+                1. Apple
+                2. Samsung
+                3.Redmi
+                """);
 
             int telmodel = (new Scanner(System.in)).nextInt();
             switch (telmodel) {
@@ -250,7 +255,7 @@ public class     Methods {
 
 
     private static void Apple() {
-
+        System.out.println("IShladi");
             int applemodel = (new Scanner(System.in)).nextInt();
             switch (applemodel) {
                 case 1:
