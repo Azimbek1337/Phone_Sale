@@ -2,23 +2,32 @@ package ONLINE;
 
 import java.util.Scanner;
 
+import static ONLINE.ConstantTil.*;
 import static ONLINE.Main.*;
 
 public class     Methods {
 
 
     public static void login() {
-        System.out.println("Entor your phone number");
+        System.out.println(  til == 'e'
+                ? LOGIN_MESSAGE_EN
+                : til == 'r'
+                ? LOGIN_MESSAGE_RU
+                : LOGIN_MESSAGE_UZ);
         String enterPn = (new Scanner(System.in)).next();
         boolean isInUsersExists = false;
         for (int i = 0; i < users.length; i++) {
             if (users[i].equals(enterPn)){
                 isInUsersExists = true;
-                System.out.println("Enter your password");
+                System.out.println( til == 'e'
+                        ? LOGIN_PASSWORD_EN
+                        : til == 'r'
+                        ? LOGIN_PASSWORD_RU
+                        : LOGIN_PASSWORD_UZ);
                 String enterPassword = (new Scanner(System.in)).next();
                 for (int j = 0; j <Passwords.length ; j++) {
                     if(enterPassword.equals(Passwords[j]) && i==j){
-                        showmenu(enterPassword);
+                        Methods.menuphone();
                     }
                 }
             }
@@ -27,23 +36,78 @@ public class     Methods {
 
 
             if (isInUsersExists == false){
-                for (int j = 0; j <Admins.length ; j++) {
-                    if (Admins[j].equals(enterPn)){
+                for (int i = 0; i <Admins.length ; i++) {
+                    if (Admins[i].equals(enterPn)){
                         isInUsersExists  = true;
+                        System.out.println();
+                        String enterPassword = (new Scanner(System.in)).next();
+                        for (int j = 0; j < adminPasswords.length ; j++) {
+                            if(enterPassword.equals(adminPasswords[j]) && i ==j){
+                                showmenuForAdmins(enterPassword);
+                            }
+                        }
                     }
                 }
             }
             if (isInUsersExists == false){
-                System.out.println( "No user");
+                System.out.println(til == 'e'
+                        ? LOGIN_ERROR_EN
+                        : til == 'r'
+                        ? LOGIN_ERROR_RU
+                        : LOGIN_ERROR_UZ);
             }
     }
 
-    private static void showmenu(String Passwords) {
-        System.out.println("Login Succesfully");
+        private static void showmenuForAdmins(String enterPassword) {
+        System.out.println("Admin menu");
     }
+//
+
 
 
     public static void register() {
+        System.out.println(  til == 'e'
+                ? REGISTER_MESSAGE_EN
+                : til == 'r'
+                ? REGISTER_MESSAGE_RU
+                : REGISTER_MESSAGE_UZ);
+        String enteredPN= (new Scanner(System.in)).next();
+        int sentcode =(int) (Math.random()*10000);
+        System.out.println(til == 'e'
+                ? CODE_EN
+                : til == 'r'
+                ? CODE_RU
+                :CODE_UZ+ sentcode);
+        System.out.println(til == 'e'
+                ? ENTER_CODE_EN
+                : til == 'r'
+                ? ENTER_CODE_RU
+                :ENTER_CODE_UZ  );
+        int enteredCode = (new Scanner(System.in)).nextInt();
+            if (enteredCode == sentcode) {
+            String[] newUsers = new String[users.length + 1];
+            for (int i = 0; i < users.length; i++) {
+                newUsers[i] = users[i];
+            }
+            newUsers[newUsers.length - 1] = enteredPN;
+            users = newUsers;
+                System.out.println(til == 'e'
+                        ? REGISTER_PASSWORD_EN
+                        : til == 'r'
+                        ? REGISTER_PASSWORD_RU
+                        : REGISTER_PASSWORD_UZ);
+              String enteredPassword = (new Scanner(System.in)).next();
+
+            //
+
+                String[] newUsersPS = new String[Passwords.length + 1];
+                for (int i = 0; i < Passwords.length; i++) {
+                    newUsers[i] = Passwords[i];
+                }
+                newUsers[newUsers.length - 1] = enteredPN;
+                Passwords = newUsersPS;
+            }
+
 
     }
     public static void menuphone() {
@@ -277,11 +341,11 @@ public class     Methods {
     }
 
     private static void iPhone_11_Pro() {
-        
+
     }
 
     private static void iPhone_11() {
-        
+
     }
 
     private static void iPhone_X() {}
