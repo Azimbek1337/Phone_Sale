@@ -3,8 +3,6 @@ package ONLINE;
 import java.util.Scanner;
 
 import static ONLINE.ConstantTil.*;
-
-
 public class Main {
     static String[] users = {"998901111111", "998902222222" ,"998903333333", "998904444444"};
     static String[] Admins = {"+998901111111", "+998902222221" ,"+998903333332", "+998904444443"};
@@ -56,8 +54,6 @@ public class Main {
                     System.out.println("");
             }
         }
-
-//            System.out.println(til == 'e' ? FIRST_MESSAGE_ENG : FIRST_MESSAGE);
     }
     }
 
