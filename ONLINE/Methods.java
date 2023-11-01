@@ -366,9 +366,41 @@ public class     Methods {
     }
 
     private static void iPhone_11_Pro() {
-        System.out.println();
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone11procolor = (new Scanner(System.in)).nextInt();
+        switch (iphone11procolor) {
+            case 1:
+                Space_blue();
+                break;
+            case 2:
+                Gold();
+                break;
+            case 3:
+                Greenpro();
+                break;
+        }
 
     }
+
+    private static void Greenpro() {
+        System.out.println("");
+
+    }
+
+    private static void Gold() {
+    }
+
+    private static void Space_blue() {
+    }
+
+
+
 
     private static void iPhone_11() {
         System.out.println("Rangni tanlang");
