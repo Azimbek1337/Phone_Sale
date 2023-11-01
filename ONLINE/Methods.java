@@ -76,12 +76,8 @@ public class     Methods {
                 ? CODE_EN
                 : til == 'r'
                 ? CODE_RU
-                : CODE_UZ + sentcode);
-        System.out.println(til == 'e'
-                ? ENTER_CODE_EN
-                : til == 'r'
-                ? ENTER_CODE_RU
-                : ENTER_CODE_UZ + sentcode);
+                : CODE_UZ );
+        System.out.println( sentcode);
         int enteredCode = (new Scanner(System.in)).nextInt();
         if (enteredCode == sentcode) {
             String[] newUsers = new String[users.length + 1];
@@ -105,6 +101,7 @@ public class     Methods {
             }
             newUsers[newUsers.length - 1] = enteredPN;
             Passwords = newUsersPS;
+            System.out.println();
         }
 
 
@@ -128,7 +125,7 @@ public class     Methods {
                 Samsung();
                 break;
             case 3:
-                Redmi();
+                xiamoi();
                 break;
             default:
         }
@@ -152,22 +149,110 @@ public class     Methods {
                 Redmi_12_Pro();
                 break;
             case 3:
-                Xiamoi_13();
+//                xiamoi("13",16,"Qora");
                 break;
             case 4:
-                Xiamoi_13_Pro();
+//                xiamoi("13_Pro");
                 break;
 
             case 5:
-                Xiamoi_13T();
+//                xiamoi("13T");
                 break;
 
             case 6:
-                Xiamoi_13T_Pro();
+//                xiamoi("13T_Pro");
                 break;
 
             default:
 
+        }
+
+    }
+
+    private static void xiamoi() {
+        System.out.println(MENU_REDMI_EN);
+        String tanlanganModel = "";
+        int tanlanganXotira = 0 ;
+        String tanlanganRang = "";
+        int menu = (new Scanner(System.in)).nextInt();
+        switch (menu) {
+            case 1:
+                tanlanganModel = "12";
+                break;
+        case 2:
+            tanlanganModel = "12 Pro";
+            break;
+        case 3:
+            tanlanganModel = "13";
+                break;
+        case 4:
+                break;
+        case 5:
+                break;
+        case 6:
+                break;
+        }
+        System.out.println(TANLASH_XOTIRA_EN);
+        int xotiraMenu = (new Scanner(System.in)).nextInt();
+        switch (xotiraMenu) {
+            case 1:
+                tanlanganXotira = 64;
+                break;
+            case 2:
+                tanlanganXotira = 128;
+                break;
+            case 3:
+                tanlanganXotira = 256;
+                break;
+        }
+
+        System.out.println(TANLASH_COLOR_EN);
+        int rangMenu = (new Scanner(System.in)).nextInt();
+        switch (rangMenu) {
+            case 1:
+                tanlanganRang = "Black";
+                break;
+            case 2:
+                tanlanganRang = "White";
+                break;
+            case 3:
+                tanlanganRang = "Green";
+                break;
+        }
+
+
+        if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 64) {
+            System.out.println("150");
+        } else if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 128 ) {
+            System.out.println("170");
+        } else if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 256) {
+            System.out.println("180");
+        }
+
+        if (tanlanganModel.equals("13") && tanlanganXotira == 64) {
+            System.out.println("200");
+        } else if (tanlanganModel.equals("13") && tanlanganXotira == 128 ) {
+            System.out.println("220");
+        } else if (tanlanganModel.equals("13") && tanlanganXotira == 256) {
+            System.out.println("240");
+        }
+//        if (tanlanganModel.equals("13") && tanlanganXotira == 64 && tanlanganRang.equals("Black")) {
+//            System.out.println("200");
+//        } else if (tanlanganModel.equals("13") && tanlanganXotira == 128 && tanlanganRang.equals("Black")) {
+//            System.out.println("220");
+//        } else if (tanlanganModel.equals("13") && tanlanganXotira == 256 && tanlanganRang.equals("Black")) {
+//            System.out.println("240");
+//        }
+
+
+        else if (tanlanganModel.equals("13") && tanlanganXotira == 32) {
+            System.out.println("230");
+        } else if (tanlanganModel.equals("13_Pro")) {
+            System.out.println("300");
+        } else if (tanlanganModel.equals("13T")) {
+            System.out.println(400);
+        } else if (tanlanganModel.equals("13T_Pro")) {
+            System.out.println(500);
         }
 
     }
@@ -337,6 +422,135 @@ public class     Methods {
     }
 
     private static void iPhone_14() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone14color = (new Scanner(System.in)).nextInt();
+        switch (iphone14color) {
+            case 1:
+                tortBlack();
+                break;
+            case 2:
+                tortWhite();
+                break;
+            case 3:
+                tortGreen();
+                break;
+        }
+
+    }
+
+    private static void tortGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone14memory = (new Scanner(System.in)).nextInt();
+        switch (iphone14memory) {
+            case 1:
+                tortgreenbirinchiGB();
+                break;
+            case 2:
+                tortgreenikkinchiGB();
+                break;
+            case 3:
+                tortgreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void tortgreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void tortgreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void tortgreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void tortWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone14memory = (new Scanner(System.in)).nextInt();
+        switch (iphone14memory) {
+            case 1:
+                tortwhitebirinchiGB();
+                break;
+            case 2:
+                tortwhiteikkinchiGB();
+                break;
+            case 3:
+                tortwhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void tortwhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void tortwhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void tortwhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void tortBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone14memory = (new Scanner(System.in)).nextInt();
+        switch (iphone14memory) {
+            case 1:
+                tortblackbirinchiGB();
+                break;
+            case 2:
+                tortblackikkinchiGB();
+                break;
+            case 3:
+                tortblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void tortblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void tortblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void tortblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
     }
 
     private static void iPhone_13_Pro_Max() {
@@ -600,7 +814,7 @@ public class     Methods {
 
     private static void uchproblackbirinchiGB() {
         System.out.println("Telefon narxi $");
-
+        System.out.println("1000");
     }
 
 

@@ -3,11 +3,12 @@ package ONLINE;
 import java.util.Scanner;
 
 import static ONLINE.ConstantTil.*;
+
 public class Main {
-    static String[] users = {"998901111111", "998902222222" ,"998903333333", "998904444444"};
-    static String[] Admins = {"+998901111111", "+998902222221" ,"+998903333332", "+998904444443"};
-    static String[] Passwords = {"Azim1", "User2" ,"User3", "User8"};
-    static String[] adminPasswords = {"Azim1", "AdminUser2" ,"AdminUser3", "AdminUser3"};
+    static String[] users = {"998901111111", "998902222222", "998903333333", "998904444444"};
+    static String[] Admins = {"+998901111111", "+998902222221", "+998903333332", "+998904444443"};
+    static String[] Passwords = {"Azim1", "User2", "User3", "User8"};
+    static String[] adminPasswords = {"Azim1", "AdminUser2", "AdminUser3", "AdminUser3"};
     static char til = EN;
 
 
@@ -36,15 +37,15 @@ public class Main {
 //                    : FIRST_MESSAGE_UZ);
             System.out.println(
                     til == 'e'
-                    ? FIRST_MESSAGE_EN
-                    : til == 'r'
-                    ? FIRST_MESSAGE_RU
-                    : FIRST_MESSAGE_UZ);
+                            ? FIRST_MESSAGE_EN
+                            : til == 'r'
+                            ? FIRST_MESSAGE_RU
+                            : FIRST_MESSAGE_UZ);
 
             int kiritilganSon = (new Scanner(System.in).nextInt());
             switch (kiritilganSon) {
                 case 1:
-                              Methods.login();
+                    Methods.login();
 
                     break;
                 case 2:
@@ -55,5 +56,5 @@ public class Main {
             }
         }
     }
-    }
+}
 
