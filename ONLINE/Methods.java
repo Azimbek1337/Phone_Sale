@@ -338,28 +338,800 @@ public class     Methods {
     }
 
     private static void iPhone_13_Pro_Max() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone13promaxcolor = (new Scanner(System.in)).nextInt();
+        switch (iphone13promaxcolor) {
+            case 1:
+                uchpromaxBlack();
+                break;
+            case 2:
+                uchpromaxWhite();
+                break;
+            case 3:
+                uchpromaxGreen();
+                break;
+        }
+
+    }
+
+    private static void uchpromaxGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone13promaxmemory) {
+            case 1:
+                uchpromaxgreenbirinchiGB();
+                break;
+            case 2:
+                uchpromaxgreenikkinchiGB();
+                break;
+            case 3:
+                uchpromaxgreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchpromaxgreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchpromaxgreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchpromaxgreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchpromaxWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone13promaxmemory) {
+            case 1:
+                uchpromaxwhitebirinchiGB();
+                break;
+            case 2:
+                uchpromaxwhiteikkinchiGB();
+                break;
+            case 3:
+                uchpromaxwhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchpromaxwhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchpromaxwhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchpromaxwhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void uchpromaxBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone13promaxmemory) {
+            case 1:
+                uchpromaxblackbirinchiGB();
+                break;
+            case 2:
+                uchpromaxblackikkinchiGB();
+                break;
+            case 3:
+                uchpromaxblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchpromaxblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchpromaxblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchpromaxblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void iPhone_13_Pro() {
+             System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone13procolor = (new Scanner(System.in)).nextInt();
+        switch (iphone13procolor) {
+            case 1:
+                uchproBlack();
+                break;
+            case 2:
+                uchproWhite();
+                break;
+            case 3:
+                uchproGreen();
+                break;
+        }
 
     }
 
+    private static void uchproGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone13promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone13promemory) {
+            case 1:
+                uchprogreenbirinchiGB();
+                break;
+            case 2:
+                uchprogreenikkinchiGB();
+                break;
+            case 3:
+                uchprogreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchprogreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchprogreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchprogreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchproWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone13promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone13promemory) {
+            case 1:
+                uchprowhitebirinchiGB();
+                break;
+            case 2:
+                uchprowhiteikkinchiGB();
+                break;
+            case 3:
+                uchprowhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchprowhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchprowhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchprowhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void uchproBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone13promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone13promemory) {
+            case 1:
+                uchproblackbirinchiGB();
+                break;
+            case 2:
+                uchproblackikkinchiGB();
+                break;
+            case 3:
+                uchproblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchproblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchproblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchproblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+
     private static void iPhone_13() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone13color = (new Scanner(System.in)).nextInt();
+        switch (iphone13color) {
+            case 1:
+                uchBlack();
+                break;
+            case 2:
+                uchWhite();
+                break;
+            case 3:
+                uchGreen();
+                break;
+        }
+
+    }
+
+    private static void uchGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone13memory = (new Scanner(System.in)).nextInt();
+        switch (iphone13memory) {
+            case 1:
+                uchgreenbirinchiGB();
+                break;
+            case 2:
+                uchgreenikkinchiGB();
+                break;
+            case 3:
+                uchgreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchgreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchgreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchgreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone13memory = (new Scanner(System.in)).nextInt();
+        switch (iphone13memory) {
+            case 1:
+                uchwhitebirinchiGB();
+                break;
+            case 2:
+                uchwhiteikkinchiGB();
+                break;
+            case 3:
+                uchwhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchwhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchwhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchwhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void uchBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone13memory = (new Scanner(System.in)).nextInt();
+        switch (iphone13memory) {
+            case 1:
+                uchblackbirinchiGB();
+                break;
+            case 2:
+                uchblackikkinchiGB();
+                break;
+            case 3:
+                uchblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void uchblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void uchblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void uchblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void iPhone_12_Pro_Max() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone12promaxcolor = (new Scanner(System.in)).nextInt();
+        switch (iphone12promaxcolor) {
+            case 1:
+                ikkipromaxBlack();
+                break;
+            case 2:
+                ikkipromaxWhite();
+                break;
+            case 3:
+                ikkipromaxGreen();
+                break;
+        }
+
+    }
+
+
+    private static void ikkipromaxGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone12promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone12promaxmemory) {
+            case 1:
+                ikkipromaxgreenbirinchiGB();
+                break;
+            case 2:
+                ikkipromaxgreenikkinchiGB();
+                break;
+            case 3:
+                ikkipromaxgreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkipromaxgreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkipromaxgreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkipromaxgreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkipromaxWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone12promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone12promaxmemory) {
+            case 1:
+                ikkipromaxwhitebirinchiGB();
+                break;
+            case 2:
+                ikkipromaxwhiteikkinchiGB();
+                break;
+            case 3:
+                ikkipromaxwhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkipromaxwhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkipromaxwhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkipromaxwhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void ikkipromaxBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone12promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone12promaxmemory) {
+            case 1:
+                ikkipromaxblackbirinchiGB();
+                break;
+            case 2:
+                ikkipromaxblackikkinchiGB();
+                break;
+            case 3:
+                ikkipromaxblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkipromaxblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkipromaxblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkipromaxblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void iPhone_12_Pro() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone12procolor = (new Scanner(System.in)).nextInt();
+        switch (iphone12procolor) {
+            case 1:
+                ikkiproBlack();
+                break;
+            case 2:
+                ikkiproWhite();
+                break;
+            case 3:
+                ikkiproGreen();
+                break;
+        }
+
+    }
+
+    private static void ikkiproGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone12promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone12promemory) {
+            case 1:
+                ikkiprogreenbirinchiGB();
+                break;
+            case 2:
+                ikkiprogreenikkinchiGB();
+                break;
+            case 3:
+                ikkiprogreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkiprogreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkiprogreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiprogreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiproWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone12promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone12promemory) {
+            case 1:
+                ikkiprowhitebirinchiGB();
+                break;
+            case 2:
+                ikkiprowhiteikkinchiGB();
+                break;
+            case 3:
+                ikkiprowhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkiprowhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkiprowhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiprowhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void ikkiproBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone12promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone12promemory) {
+            case 1:
+                ikkiproblackbirinchiGB();
+                break;
+            case 2:
+                ikkiproblackikkinchiGB();
+                break;
+            case 3:
+                ikkiproblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkiproblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkiproblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiproblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void iPhone_12() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone12color = (new Scanner(System.in)).nextInt();
+        switch (iphone12color) {
+            case 1:
+                ikkiBlack();
+                break;
+            case 2:
+                ikkiWhite();
+                break;
+            case 3:
+                ikkiGreen();
+                break;
+        }
 
     }
+
+    private static void ikkiGreen() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GB
+                
+                """);
+        int iphone12memory = (new Scanner(System.in)).nextInt();
+        switch (iphone12memory) {
+            case 1:
+                ikkigreenbirinchiGB();
+                break;
+            case 2:
+                ikkigreenikkinchiGB();
+                break;
+            case 3:
+                ikkigreenuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkigreenikkinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkigreenuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkigreenbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiWhite() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone12memory = (new Scanner(System.in)).nextInt();
+        switch (iphone12memory) {
+            case 1:
+                ikkiwhitebirinchiGB();
+                break;
+            case 2:
+                ikkiwhiteikkinchiGB();
+                break;
+            case 3:
+                ikkiwhiteuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkiwhiteuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkiwhiteikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiwhitebirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+
+    private static void ikkiBlack() {
+        System.out.println("Telefon xotirasini kiriting");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone12memory = (new Scanner(System.in)).nextInt();
+        switch (iphone12memory) {
+            case 1:
+                ikkiblackbirinchiGB();
+                break;
+            case 2:
+                ikkiblackikkinchiGB();
+                break;
+            case 3:
+                ikkiblackuchichinchiGB();
+                break;
+        }
+    }
+
+    private static void ikkiblackuchichinchiGB() {
+        System.out.println("Telefon narxi $");
+    }
+
+    private static void ikkiblackikkinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
+    private static void ikkiblackbirinchiGB() {
+        System.out.println("Telefon narxi $");
+
+    }
+
 
     private static void iPhone_11_Pro_Max() {
         System.out.println("Rangni tanlang");
@@ -407,16 +1179,16 @@ public class     Methods {
     }
 
     private static void birpromaxgreenuchinchiGB() {
-        System.out.println("Telefon narxi 600$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birpromaxgreenikkinchiGB() {
-        System.out.println("Telefon narxi 570$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void birpromaxgreenbirinchiGB() {
-        System.out.println("Telefon narxi 550$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birpromaxGold() {
@@ -442,16 +1214,16 @@ public class     Methods {
     }
 
     private static void birpromaxgolduchinchiGB() {
-        System.out.println("Telefon narxi 600$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birpromaxgoldikkinchiGB() {
-        System.out.println("Telefon narxi 570$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void birpromaxgoldbirinchiGB() {
-        System.out.println("Telefon narxi 550$");
+        System.out.println("Telefon narxi $");
     }
 
 
@@ -480,16 +1252,16 @@ public class     Methods {
     }
 
     private static void birpromaxspaceblueuchinchiGB() {
-        System.out.println("Telefon narxi 610$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birpromaxspaceblueikkinchiGB() {
-        System.out.println("Telefon narxi 580$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void birpromaxspacebluebirinchiGB() {
-        System.out.println("Telefon narxi 560$");
+        System.out.println("Telefon narxi $");
     }
 
 
@@ -541,16 +1313,16 @@ public class     Methods {
     }
 
     private static void birprogreenuchinchiGB() {
-        System.out.println("Telefon narxi 500$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birprogreenikkinchiGB() {
-        System.out.println("Telefon narxi 470$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void birprogreenbirinchiGB() {
-        System.out.println("Telefon narxi 450$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void Gold() {
@@ -576,16 +1348,16 @@ public class     Methods {
     }
 
     private static void birprogolduchinchiGB() {
-        System.out.println("Telefon narxi 500$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birprogoldikkinchiGB() {
-        System.out.println("Telefon narxi 470$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void birprogoldbirinchiGB() {
-        System.out.println("Telefon narxi 450$");
+        System.out.println("Telefon narxi $");
     }
 
 
@@ -614,16 +1386,16 @@ public class     Methods {
     }
 
     private static void birprospaceblueuchinchiGB() {
-        System.out.println("Telefon narxi 510$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void birprospaceblueikkinchiGB() {
-        System.out.println("Telefon narxi 480$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void birprospacebluebirinchiGB() {
-        System.out.println("Telefon narxi 460$");
+        System.out.println("Telefon narxi $");
     }
 
 
@@ -675,16 +1447,16 @@ public class     Methods {
     }
 
     private static void greenikkinchiGB() {
-        System.out.println("Telefon narxi 380$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void greenuchichinchiGB() {
-        System.out.println("Telefon narxi 410$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void greenbirinchiGB() {
-        System.out.println("Telefon narxi 360$");
+        System.out.println("Telefon narxi $");
 
     }
 
@@ -711,16 +1483,16 @@ public class     Methods {
     }
 
     private static void whiteuchichinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void whiteikkinchiGB() {
-        System.out.println("Telefon narxi 370$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void whitebirinchiGB() {
-        System.out.println("Telefon narxi 350$");
+        System.out.println("Telefon narxi $");
 
     }
 
@@ -748,16 +1520,16 @@ public class     Methods {
     }
 
     private static void blackuchichinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println("Telefon narxi $");
     }
 
     private static void blackikkinchiGB() {
-        System.out.println("Telefon narxi 370$");
+        System.out.println("Telefon narxi $");
 
     }
 
     private static void blackbirinchiGB() {
-        System.out.println("Telefon narxi 350$");
+        System.out.println("Telefon narxi $");
 
     }
 }
