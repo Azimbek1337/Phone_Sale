@@ -362,8 +362,138 @@ public class     Methods {
     }
 
     private static void iPhone_11_Pro_Max() {
+        System.out.println("Rangni tanlang");
+        System.out.println("""
+                1.Black
+                2.White
+                3.Green
+                
+                """);
+        int iphone11promaxcolor = (new Scanner(System.in)).nextInt();
+        switch (iphone11promaxcolor) {
+            case 1:
+                birpromaxSpace_blue();
+                break;
+            case 2:
+                birpromaxGold();
+                break;
+            case 3:
+                birpromaxGreenpro();
+                break;
+        }
 
     }
+
+    private static void birpromaxGreenpro() {
+        System.out.println("Telefon xotirasini tanlang");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone11promemory = (new Scanner(System.in)).nextInt();
+        switch (iphone11promemory) {
+            case 1:
+                birpromaxgreenbirinchiGB();
+                break;
+            case 2:
+                birpromaxgreenikkinchiGB();
+                break;
+            case 3:
+                birpromaxgreenuchinchiGB();
+        }
+
+    }
+
+    private static void birpromaxgreenuchinchiGB() {
+        System.out.println("Telefon narxi 600$");
+    }
+
+    private static void birpromaxgreenikkinchiGB() {
+        System.out.println("Telefon narxi 570$");
+
+    }
+
+    private static void birpromaxgreenbirinchiGB() {
+        System.out.println("Telefon narxi 550$");
+    }
+
+    private static void birpromaxGold() {
+        System.out.println("Telefon xotirasini tanlang");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone11promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone11promaxmemory) {
+            case 1:
+                birpromaxgoldbirinchiGB();
+                break;
+            case 2:
+                birpromaxgoldikkinchiGB();
+                break;
+            case 3:
+                birpromaxgolduchinchiGB();
+        }
+
+    }
+
+    private static void birpromaxgolduchinchiGB() {
+        System.out.println("Telefon narxi 600$");
+    }
+
+    private static void birpromaxgoldikkinchiGB() {
+        System.out.println("Telefon narxi 570$");
+
+    }
+
+    private static void birpromaxgoldbirinchiGB() {
+        System.out.println("Telefon narxi 550$");
+    }
+
+
+
+
+    private static void birpromaxSpace_blue() {
+        System.out.println("Telefon xotirasini tanlang");
+        System.out.println("""
+                1. 64 GB
+                2. 128 GB
+                3. 256 GbB
+                
+                """);
+        int iphone11promaxmemory = (new Scanner(System.in)).nextInt();
+        switch (iphone11promaxmemory) {
+            case 1:
+                birpromaxspacebluebirinchiGB();
+                break;
+            case 2:
+                birpromaxspaceblueikkinchiGB();
+                break;
+            case 3:
+                birpromaxspaceblueuchinchiGB();
+        }
+
+    }
+
+    private static void birpromaxspaceblueuchinchiGB() {
+        System.out.println("Telefon narxi 610$");
+    }
+
+    private static void birpromaxspaceblueikkinchiGB() {
+        System.out.println("Telefon narxi 580$");
+
+    }
+
+    private static void birpromaxspacebluebirinchiGB() {
+        System.out.println("Telefon narxi 560$");
+    }
+
+
+
 
     private static void iPhone_11_Pro() {
         System.out.println("Rangni tanlang");
