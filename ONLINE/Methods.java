@@ -170,7 +170,11 @@ public class     Methods {
     }
 
     private static void xiamoi() {
-        System.out.println(MENU_REDMI_EN);
+        System.out.println(til == 'e'
+                ? MENU_REDMI_EN
+                : til == 'r'
+                ? MENU_REDMI_RU
+                : MENU_REDMI_UZ);
         String tanlanganModel = "";
         int tanlanganXotira = 0 ;
         String tanlanganRang = "";
@@ -186,10 +190,13 @@ public class     Methods {
             tanlanganModel = "13";
                 break;
         case 4:
+            tanlanganModel = "13 Pro";
                 break;
         case 5:
+            tanlanganModel = "13T";
                 break;
         case 6:
+            tanlanganModel = "13T Pro";
                 break;
         }
         System.out.println(TANLASH_XOTIRA_EN);
@@ -229,12 +236,29 @@ public class     Methods {
             System.out.println("180");
         }
 
+        if (tanlanganModel.equals("12 ") && tanlanganXotira == 64) {
+            System.out.println("150");
+        } else if (tanlanganModel.equals("12 ") && tanlanganXotira == 128 ) {
+            System.out.println("170");
+        } else if (tanlanganModel.equals("12") && tanlanganXotira == 256) {
+            System.out.println("180");
+        }
+
+
         if (tanlanganModel.equals("13") && tanlanganXotira == 64) {
             System.out.println("200");
         } else if (tanlanganModel.equals("13") && tanlanganXotira == 128 ) {
             System.out.println("220");
         } else if (tanlanganModel.equals("13") && tanlanganXotira == 256) {
             System.out.println("240");
+        }
+
+        if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 64) {
+            System.out.println("200");
+        } else if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 128 ) {
+            System.out.println("220");
+        } else if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 256) {
+            System.out.println("500");
         }
 //        if (tanlanganModel.equals("13") && tanlanganXotira == 64 && tanlanganRang.equals("Black")) {
 //            System.out.println("200");
@@ -245,15 +269,14 @@ public class     Methods {
 //        }
 
 
-        else if (tanlanganModel.equals("13") && tanlanganXotira == 32) {
+        else if (tanlanganModel.equals("13Pro") && tanlanganXotira == 64) {
             System.out.println("230");
-        } else if (tanlanganModel.equals("13_Pro")) {
+        } else if (tanlanganModel.equals("13Pro") && tanlanganXotira == 128) {
             System.out.println("300");
-        } else if (tanlanganModel.equals("13T")) {
-            System.out.println(400);
-        } else if (tanlanganModel.equals("13T_Pro")) {
-            System.out.println(500);
+        } else if (tanlanganModel.equals("13Pro")&& tanlanganXotira == 256) {
+            System.out.println("400");
         }
+
 
     }
 
@@ -554,13 +577,13 @@ public class     Methods {
     }
 
     private static void iPhone_13_Pro_Max() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_COLOR_EN
+                        : til == 'r'
+                        ? TANLASH_COLOR_EN
+                        : TANLASH_COLOR_UZ
+        );
         int iphone13promaxcolor = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxcolor) {
             case 1:
@@ -577,13 +600,13 @@ public class     Methods {
     }
 
     private static void uchpromaxGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxmemory) {
             case 1:
@@ -613,13 +636,13 @@ public class     Methods {
     }
 
     private static void uchpromaxWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxmemory) {
             case 1:
@@ -650,13 +673,13 @@ public class     Methods {
 
 
     private static void uchpromaxBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxmemory) {
             case 1:
@@ -686,13 +709,13 @@ public class     Methods {
     }
 
     private static void iPhone_13_Pro() {
-             System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_COLOR_EN
+                        : til == 'r'
+                        ? TANLASH_COLOR_EN
+                        : TANLASH_COLOR_UZ
+        );
         int iphone13procolor = (new Scanner(System.in)).nextInt();
         switch (iphone13procolor) {
             case 1:
@@ -709,13 +732,13 @@ public class     Methods {
     }
 
     private static void uchproGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13promemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promemory) {
             case 1:
@@ -745,13 +768,13 @@ public class     Methods {
     }
 
     private static void uchproWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13promemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promemory) {
             case 1:
@@ -782,13 +805,13 @@ public class     Methods {
 
 
     private static void uchproBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13promemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promemory) {
             case 1:
@@ -820,13 +843,13 @@ public class     Methods {
 
 
     private static void iPhone_13() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_COLOR_EN
+                        : til == 'r'
+                        ? TANLASH_COLOR_EN
+                        : TANLASH_COLOR_UZ
+        );
         int iphone13color = (new Scanner(System.in)).nextInt();
         switch (iphone13color) {
             case 1:
@@ -843,13 +866,13 @@ public class     Methods {
     }
 
     private static void uchGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13memory = (new Scanner(System.in)).nextInt();
         switch (iphone13memory) {
             case 1:
@@ -879,13 +902,13 @@ public class     Methods {
     }
 
     private static void uchWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13memory = (new Scanner(System.in)).nextInt();
         switch (iphone13memory) {
             case 1:
@@ -916,13 +939,13 @@ public class     Methods {
 
 
     private static void uchBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone13memory = (new Scanner(System.in)).nextInt();
         switch (iphone13memory) {
             case 1:
@@ -976,13 +999,13 @@ public class     Methods {
 
 
     private static void ikkipromaxGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone12promaxmemory) {
             case 1:
@@ -1012,13 +1035,13 @@ public class     Methods {
     }
 
     private static void ikkipromaxWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone12promaxmemory) {
             case 1:
@@ -1049,13 +1072,13 @@ public class     Methods {
 
 
     private static void ikkipromaxBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone12promaxmemory) {
             case 1:
@@ -1085,13 +1108,13 @@ public class     Methods {
     }
 
     private static void iPhone_12_Pro() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_COLOR_EN
+                        : til == 'r'
+                        ? TANLASH_COLOR_EN
+                        : TANLASH_COLOR_UZ
+        );
         int iphone12procolor = (new Scanner(System.in)).nextInt();
         switch (iphone12procolor) {
             case 1:
@@ -1108,13 +1131,13 @@ public class     Methods {
     }
 
     private static void ikkiproGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12promemory = (new Scanner(System.in)).nextInt();
         switch (iphone12promemory) {
             case 1:
@@ -1144,13 +1167,13 @@ public class     Methods {
     }
 
     private static void ikkiproWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12promemory = (new Scanner(System.in)).nextInt();
         switch (iphone12promemory) {
             case 1:
@@ -1181,13 +1204,13 @@ public class     Methods {
 
 
     private static void ikkiproBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12promemory = (new Scanner(System.in)).nextInt();
         switch (iphone12promemory) {
             case 1:
@@ -1217,13 +1240,13 @@ public class     Methods {
     }
 
     private static void iPhone_12() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_COLOR_EN
+                        : til == 'r'
+                        ? TANLASH_COLOR_EN
+                        : TANLASH_COLOR_UZ
+        );
         int iphone12color = (new Scanner(System.in)).nextInt();
         switch (iphone12color) {
             case 1:
@@ -1240,13 +1263,13 @@ public class     Methods {
     }
 
     private static void ikkiGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12memory = (new Scanner(System.in)).nextInt();
         switch (iphone12memory) {
             case 1:
@@ -1276,13 +1299,13 @@ public class     Methods {
     }
 
     private static void ikkiWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12memory = (new Scanner(System.in)).nextInt();
         switch (iphone12memory) {
             case 1:
@@ -1313,13 +1336,13 @@ public class     Methods {
 
 
     private static void ikkiBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone12memory = (new Scanner(System.in)).nextInt();
         switch (iphone12memory) {
             case 1:

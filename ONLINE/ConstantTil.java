@@ -196,6 +196,10 @@ public  static String SPECIAL3_COLOR_EN = "Deep Purple";
                 2.128
                 3.256
 """;
+//NARX ciqarish
+public  static String NARX_CIQARISH_EN = "Cost of phone";
+public  static String NARX_CIQARISH_RU = "Цена телефона";
+public  static String NARX_CIQARISH_UZ = "Telefon narxi";
 
     public static final char EN = 'e';
     public static final char UZ = 'u';
