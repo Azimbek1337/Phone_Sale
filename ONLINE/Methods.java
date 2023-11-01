@@ -140,32 +140,7 @@ public class     Methods {
                 ? MENU_REDMI_RU
                 : MENU_REDMI_UZ);
 
-        int Redmimodel = (new Scanner(System.in)).nextInt();
-        switch (Redmimodel) {
-            case 1:
-                Redmi_12();
-                break;
-            case 2:
-                Redmi_12_Pro();
-                break;
-            case 3:
-//                xiamoi("13",16,"Qora");
-                break;
-            case 4:
-//                xiamoi("13_Pro");
-                break;
 
-            case 5:
-//                xiamoi("13T");
-                break;
-
-            case 6:
-//                xiamoi("13T_Pro");
-                break;
-
-            default:
-
-        }
 
     }
 
@@ -184,22 +159,26 @@ public class     Methods {
                 tanlanganModel = "12";
                 break;
         case 2:
-            tanlanganModel = "12 Pro";
+            tanlanganModel = "12_Pro";
             break;
         case 3:
             tanlanganModel = "13";
                 break;
         case 4:
-            tanlanganModel = "13 Pro";
+            tanlanganModel = "13_Pro";
                 break;
         case 5:
             tanlanganModel = "13T";
                 break;
         case 6:
-            tanlanganModel = "13T Pro";
+            tanlanganModel = "13T_Pro";
                 break;
         }
-        System.out.println(TANLASH_XOTIRA_EN);
+        System.out.println(til == 'e'
+                ? TANLASH_XOTIRA_EN
+                : til == 'r'
+                ? TANLASH_XOTIRA_RU
+                : TANLASH_XOTIRA_EN);
         int xotiraMenu = (new Scanner(System.in)).nextInt();
         switch (xotiraMenu) {
             case 1:
@@ -212,8 +191,11 @@ public class     Methods {
                 tanlanganXotira = 256;
                 break;
         }
-
-        System.out.println(TANLASH_COLOR_EN);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int rangMenu = (new Scanner(System.in)).nextInt();
         switch (rangMenu) {
             case 1:
@@ -226,8 +208,6 @@ public class     Methods {
                 tanlanganRang = "Green";
                 break;
         }
-
-
         if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 64) {
             System.out.println("150");
         } else if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 128 ) {
@@ -243,8 +223,6 @@ public class     Methods {
         } else if (tanlanganModel.equals("12") && tanlanganXotira == 256) {
             System.out.println("180");
         }
-
-
         if (tanlanganModel.equals("13") && tanlanganXotira == 64) {
             System.out.println("200");
         } else if (tanlanganModel.equals("13") && tanlanganXotira == 128 ) {
@@ -252,7 +230,6 @@ public class     Methods {
         } else if (tanlanganModel.equals("13") && tanlanganXotira == 256) {
             System.out.println("240");
         }
-
         if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 64) {
             System.out.println("200");
         } else if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 128 ) {
@@ -269,101 +246,170 @@ public class     Methods {
 //        }
 
 
-        else if (tanlanganModel.equals("13Pro") && tanlanganXotira == 64) {
+        else if (tanlanganModel.equals("13_Pro") && tanlanganXotira == 64) {
             System.out.println("230");
-        } else if (tanlanganModel.equals("13Pro") && tanlanganXotira == 128) {
+        } else if (tanlanganModel.equals("13_Pro") && tanlanganXotira == 128) {
             System.out.println("300");
-        } else if (tanlanganModel.equals("13Pro")&& tanlanganXotira == 256) {
+        } else if (tanlanganModel.equals("13_Pro")&& tanlanganXotira == 256) {
             System.out.println("400");
         }
-
-
+        else if (tanlanganModel.equals("13T") && tanlanganXotira == 64) {
+            System.out.println("230");
+        } else if (tanlanganModel.equals("13T") && tanlanganXotira == 128) {
+            System.out.println("300");
+        } else if (tanlanganModel.equals("13T")&& tanlanganXotira == 256) {
+            System.out.println("400");
+        }
     }
-
-    private static void Xiamoi_13T_Pro() {
-    }
-
-    private static void Xiamoi_13T() {
-    }
-
-    private static void Xiamoi_13_Pro() {
-    }
-
-    private static void Xiamoi_13() {
-    }
-
-    private static void Redmi_12_Pro() {
-    }
-
-    private static void Redmi_12() {
-    }
-
     private static void Samsung() {
 
-        System.out.println(
-                til == 'e'
-                        ? MENU_SAMSUNG_EN
-                        : til == 'r'
-                        ? MENU_SAMSUNG_RU
-                        : MENU_SAMSUNG_UZ
-        );
-
-        int samsungmodel = (new Scanner(System.in)).nextInt();
-        switch (samsungmodel) {
+        System.out.println(til == 'e'
+                ? MENU_SAMSUNG_EN
+                : til == 'r'
+                ? MENU_SAMSUNG_RU
+                : MENU_SAMSUNG_UZ);
+        String tanlanganModelSAM = "";
+        int tanlanganXotiraSAM = 0;
+        String tanlanganRangSAM = "";
+        int menu = (new Scanner(System.in)).nextInt();
+        switch (menu) {
             case 1:
-                Samsung_A04();
+                tanlanganModelSAM = "Samsung A04";
                 break;
             case 2:
-                Samsung_A14();
+                tanlanganModelSAM = "Samsung A14 ";
                 break;
             case 3:
-                Samsung_A34();
+                tanlanganModelSAM = "Samsung A34";
                 break;
             case 4:
-                Samsung_S23();
+                tanlanganModelSAM = "Samsung S23";
                 break;
             case 5:
-                Samsung_S23_Plus();
+                tanlanganModelSAM = "Samsung S23 Plus";
                 break;
             case 6:
-                Samsung_S23_Ultra();
+                tanlanganModelSAM = "Samsung Z Flip";
                 break;
             case 7:
-                Samsung_Z_Flip_5();
+                tanlanganModelSAM = "Samsung_Z_Fold_5";
                 break;
             case 8:
-                Samsung_Z_Fold_5();
-            default:
+                tanlanganModelSAM = "IPhone 15 Pro Max";
+                break;
+
+
+        }
+        System.out.println(til == 'e'
+                ? TANLASH_XOTIRA_EN
+                : til == 'r'
+                ? TANLASH_XOTIRA_RU
+                : TANLASH_XOTIRA_EN);
+        int xotiraMenu = (new Scanner(System.in)).nextInt();
+        switch (xotiraMenu) {
+            case 1:
+                tanlanganXotiraSAM = 64;
+                break;
+            case 2:
+                tanlanganXotiraSAM = 128;
+                break;
+            case 3:
+                tanlanganXotiraSAM = 256;
+                break;
+        }
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
+        int rangMenu = (new Scanner(System.in)).nextInt();
+        switch (rangMenu) {
+            case 1:
+                tanlanganRangSAM = "Black";
+                break;
+            case 2:
+                tanlanganRangSAM = "White";
+                break;
+            case 3:
+                tanlanganRangSAM = "Green";
+                break;
+        }
+        if (tanlanganModelSAM.equals("Samsung A04") && tanlanganXotiraSAM == 64) {
+            System.out.println("150");
+        } else if (tanlanganModelSAM.equals("Samsung A04") && tanlanganXotiraSAM == 128) {
+            System.out.println("170");
+        } else if (tanlanganModelSAM.equals("Samsung A04") && tanlanganXotiraSAM == 256) {
+            System.out.println("180");
         }
 
+        if (tanlanganModelSAM.equals("Samsung A14") && tanlanganXotiraSAM == 64) {
+            System.out.println("150");
+        } else if (tanlanganModelSAM.equals("Samsung A14") && tanlanganXotiraSAM == 128) {
+            System.out.println("170");
+        } else if (tanlanganModelSAM.equals("Samsung A14") && tanlanganXotiraSAM == 256) {
+            System.out.println("180");
+        }
+        if (tanlanganModelSAM.equals("Samsung A34") && tanlanganXotiraSAM == 64) {
+            System.out.println("200");
+        } else if (tanlanganModelSAM.equals("Samsung A34") && tanlanganXotiraSAM == 128) {
+            System.out.println("220");
+        } else if (tanlanganModelSAM.equals("Samsung A34") && tanlanganXotiraSAM == 256) {
+            System.out.println("240");
+        }
+        if (tanlanganModelSAM.equals("Samsung S23") && tanlanganXotiraSAM == 64) {
+            System.out.println("200");
+        } else if (tanlanganModelSAM.equals("Samsung S23") && tanlanganXotiraSAM == 128) {
+            System.out.println("220");
+        } else if (tanlanganModelSAM.equals("Samsung S23") && tanlanganXotiraSAM == 256) {
+            System.out.println("500");
+        }
+//        if (tanlanganModel.equals("13") && tanlanganXotira == 64 && tanlanganRang.equals("Black")) {
+//            System.out.println("200");
+//        } else if (tanlanganModel.equals("13") && tanlanganXotira == 128 && tanlanganRang.equals("Black")) {
+//            System.out.println("220");
+//        } else if (tanlanganModel.equals("13") && tanlanganXotira == 256 && tanlanganRang.equals("Black")) {
+//            System.out.println("240");
+//        }
+
+
+        else if (tanlanganModelSAM.equals("Samsung S23 Plus") && tanlanganXotiraSAM == 64) {
+            System.out.println("230");
+        } else if (tanlanganModelSAM.equals("Samsung S23 Plus") && tanlanganXotiraSAM == 128) {
+            System.out.println("300");
+        } else if (tanlanganModelSAM.equals("Samsung S23 Plus") && tanlanganXotiraSAM == 256) {
+            System.out.println("400");
+
+        } else if (tanlanganModelSAM.equals("Samsung_S23_Ultra") && tanlanganXotiraSAM == 64) {
+            System.out.println("230");
+        } else if (tanlanganModelSAM.equals("Samsung_S23_Ultra") && tanlanganXotiraSAM == 128) {
+            System.out.println("300");
+        } else if (tanlanganModelSAM.equals("Samsung_S23_Ultra") && tanlanganXotiraSAM == 256) {
+            System.out.println("400");
+        }
+        else if (tanlanganModelSAM.equals("Samsung Z Flip") && tanlanganXotiraSAM == 64) {
+            System.out.println("230");
+        } else if (tanlanganModelSAM.equals("Samsung Z Flip") && tanlanganXotiraSAM == 128) {
+            System.out.println("300");
+        } else if (tanlanganModelSAM.equals("Samsung Z Flip") && tanlanganXotiraSAM == 256) {
+            System.out.println("400");
+
+        }
+        else if (tanlanganModelSAM.equals("Samsung_Z_Fold_5") && tanlanganXotiraSAM == 64) {
+            System.out.println("230");
+        } else if (tanlanganModelSAM.equals("Samsung_Z_Fold_5") && tanlanganXotiraSAM == 128) {
+            System.out.println("300");
+        } else if (tanlanganModelSAM.equals("Samsung_Z_Fold_5") && tanlanganXotiraSAM == 256) {
+            System.out.println("400");
+        }
+        else if (tanlanganModelSAM.equals("Samsung S20") && tanlanganXotiraSAM == 64) {
+                System.out.println("230");
+            } else if (tanlanganModelSAM.equals("Samsung S20") && tanlanganXotiraSAM == 128) {
+                System.out.println("300");
+            } else if (tanlanganModelSAM.equals("Samsung S20") && tanlanganXotiraSAM == 256) {
+                System.out.println("400");
+
+        }
     }
-
-    private static void Samsung_Z_Fold_5() {
-    }
-
-    private static void Samsung_Z_Flip_5() {
-    }
-
-    private static void Samsung_S23_Ultra() {
-    }
-
-    private static void Samsung_S23_Plus() {
-    }
-
-    private static void Samsung_S23() {
-    }
-
-
-    private static void Samsung_A34() {
-    }
-
-    private static void Samsung_A14() {
-    }
-
-    private static void Samsung_A04() {
-    }
-
-
     private static void Apple() {
 
         System.out.println(
