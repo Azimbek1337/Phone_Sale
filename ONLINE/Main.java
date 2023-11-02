@@ -16,7 +16,7 @@ public class Main {
         while (true) {
             System.out.println("""
                     Tilni tanlash, Choose language
-                    1.English1
+                    1.English
                     2.Uzbek
                     3.Russkiy
                     """);

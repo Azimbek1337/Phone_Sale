@@ -465,13 +465,11 @@ public class     Methods {
     //hsiua8usdgycsd
 
     private static void iPhone_15_Pro_Max() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone15promxcolor = (new Scanner(System.in)).nextInt();
         switch (iphone15promxcolor) {
             case 1:
@@ -488,13 +486,16 @@ public class     Methods {
     }
 
     private static void beshpromGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.print(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
+        System.out.println(" 1380$");
+
+
         int iphone15prommemory = (new Scanner(System.in)).nextInt();
         switch (iphone15prommemory) {
             case 1:
@@ -510,27 +511,51 @@ public class     Methods {
     }
 
     private static void beshpromgreenikkinchiGB() {
-        System.out.println("Telefon narxi 1380$");
+//        System.out.println("Telefon narxi 1380$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println("  1380$");
     }
 
     private static void beshpromgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 1360$");
-
+//        System.out.println("Telefon narxi 1360$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1360$");
     }
 
     private static void beshpromgreenbirinchiGB() {
-        System.out.println("Telefon narxi 1340$");
-
+//        System.out.println("Telefon narxi 1340$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1340$");
     }
 
     private static void beshpromWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.print(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
+        System.out.println(" 1340$");
+
         int iphone15prommemory = (new Scanner(System.in)).nextInt();
         switch (iphone15prommemory) {
             case 1:
@@ -546,28 +571,54 @@ public class     Methods {
     }
 
     private static void beshpromwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 1360$");
+//        System.out.println("Telefon narxi 1360$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1360$");
     }
 
     private static void beshpromwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 1340$");
-
+//        System.out.println("Telefon narxi 1340$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1340$");
     }
 
     private static void beshpromwhitebirinchiGB() {
-        System.out.println("Telefon narxi 1320$");
+//        System.out.println("Telefon narxi 1320$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println("1320$");
 
     }
 
 
     private static void beshpromBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GbB
-                
-                """);
+        System.out.print(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+
+        );
+        System.out.println("1320$");
+
         int iphone15prommemory = (new Scanner(System.in)).nextInt();
         switch (iphone15prommemory) {
             case 1:
@@ -583,27 +634,48 @@ public class     Methods {
     }
 
     private static void beshpromblackuchichinchiGB() {
-        System.out.println("Telefon narxi 1360$");
+//        System.out.println("Telefon narxi 1360$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1360$");
     }
 
     private static void beshpromblackikkinchiGB() {
-        System.out.println("Telefon narxi 1340$");
-
+//        System.out.println("Telefon narxi 1340$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1340$");
     }
 
     private static void beshpromblackbirinchiGB() {
-        System.out.println("Telefon narxi 1320$");
+//        System.out.println("Telefon narxi 1320$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1320$");
 
     }
 
     private static void iPhone_15_Pro() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone15procolor = (new Scanner(System.in)).nextInt();
         switch (iphone15procolor) {
             case 1:
@@ -620,13 +692,15 @@ public class     Methods {
     }
 
     private static void beshpGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.print(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+
+        );
+        System.out.println("1220$");
         int iphone15pmemory = (new Scanner(System.in)).nextInt();
         switch (iphone15pmemory) {
             case 1:
@@ -642,27 +716,51 @@ public class     Methods {
     }
 
     private static void beshpgreenikkinchiGB() {
-        System.out.println("Telefon narxi 1240$");
+//        System.out.println("Telefon narxi 1240$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println( " 1240$");
     }
 
     private static void beshpgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 1220$");
+//        System.out.println("Telefon narxi 1220$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1220$");
 
     }
 
     private static void beshpgreenbirinchiGB() {
-        System.out.println("Telefon narxi 1200$");
-
+//        System.out.println("Telefon narxi 1200$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
     }
 
     private static void beshpWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.print(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
+        System.out.println(" 1200$");
+
         int iphone15pmemory = (new Scanner(System.in)).nextInt();
         switch (iphone15pmemory) {
             case 1:
@@ -678,28 +776,52 @@ public class     Methods {
     }
 
     private static void beshpwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 1220$");
+//        System.out.println("Telefon narxi 1220$");
+        System.out.print(
+                til == 'e'
+                        ?NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1220$");
     }
 
     private static void beshpwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 1200$");
+        System.out.print(
+                til == 'e'
+                        ?NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1220$");
 
     }
 
     private static void beshpwhitebirinchiGB() {
-        System.out.println("Telefon narxi 1180$");
+//        System.out.println("Telefon narxi 1180$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println("1180$");
 
     }
 
 
     private static void beshpBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GbB
-                
-                """);
+        System.out.print(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
+        System.out.println(" 1180$");
         int iphone15pmemory = (new Scanner(System.in)).nextInt();
         switch (iphone15pmemory) {
             case 1:
@@ -715,27 +837,48 @@ public class     Methods {
     }
 
     private static void beshpblackuchichinchiGB() {
-        System.out.println("Telefon narxi 1220$");
+//        System.out.println("Telefon narxi 1220$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1220$");
     }
 
     private static void beshpblackikkinchiGB() {
-        System.out.println("Telefon narxi 1200$");
-
+//        System.out.println("Telefon narxi 1200$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1200$");
     }
 
     private static void beshpblackbirinchiGB() {
-        System.out.println("Telefon narxi 1180$");
+//        System.out.println("Telefon narxi 1180$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1180$");
 
     }
 
     private static void iPhone_15() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone15color = (new Scanner(System.in)).nextInt();
         switch (iphone15color) {
             case 1:
@@ -752,13 +895,14 @@ public class     Methods {
     }
 
     private static void beshGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
+        System.out.println(" 1200$");
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -774,27 +918,50 @@ public class     Methods {
     }
 
     private static void beshgreenikkinchiGB() {
-        System.out.println("Telefon narxi 1050$");
+//        System.out.println("Telefon narxi 1050$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println( " 1050$");
     }
 
     private static void beshgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 1030$");
+//        System.out.println("Telefon narxi 1030$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println( " 1030$");
 
     }
 
     private static void beshgreenbirinchiGB() {
-        System.out.println("Telefon narxi 1010$");
+//        System.out.println("Telefon narxi 1010$");
 
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1010$"
+        );
     }
 
     private static void beshWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -810,28 +977,49 @@ public class     Methods {
     }
 
     private static void beshwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 1040$");
+//        System.out.println("Telefon narxi 1040$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1040$"
+        );
     }
 
     private static void beshwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 1020$");
+//        System.out.println("Telefon narxi 1020$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1020$"
+        );
 
     }
 
     private static void beshwhitebirinchiGB() {
-        System.out.println("Telefon narxi 1000$");
+//        System.out.println("Telefon narxi 1000$");
 
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1000$"
+        );
     }
 
 
     private static void beshBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -847,28 +1035,47 @@ public class     Methods {
     }
 
     private static void beshblackuchichinchiGB() {
-        System.out.println("Telefon narxi 1040$");
+//        System.out.println("Telefon narxi 1040$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1040$"
+        );
     }
 
     private static void beshblackikkinchiGB() {
-        System.out.println("Telefon narxi 1020$");
+//        System.out.println("Telefon narxi 1020$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1020$"
+        );
 
     }
 
     private static void beshblackbirinchiGB() {
-        System.out.println("Telefon narxi 1000$");
+//        System.out.println("Telefon narxi 1000$");
 
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1000$"
+        );
     }
 
 
     private static void iPhone_14_Pro_Max() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone14promaxcolor = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxcolor) {
             case 1:
@@ -885,13 +1092,13 @@ public class     Methods {
     }
 
     private static void tortpromaxGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -907,27 +1114,48 @@ public class     Methods {
     }
 
     private static void tortpromaxgreenikkinchiGB() {
-        System.out.println("Telefon narxi 1030$");
+//        System.out.println("Telefon narxi 1030$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1030$"
+        );
     }
 
     private static void tortpromaxgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 1010$");
+//        System.out.println("Telefon narxi 1010$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1010$"
+        );
+
 
     }
 
     private static void tortpromaxgreenbirinchiGB() {
-        System.out.println("Telefon narxi 990$");
-
+//        System.out.println("Telefon narxi 990$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 990$"
+        );
     }
 
     private static void tortpromaxWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -958,13 +1186,13 @@ public class     Methods {
 
 
     private static void tortpromaxBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -981,27 +1209,46 @@ public class     Methods {
 
     private static void tortpromaxblackuchichinchiGB() {
 
-        System.out.println("Telefon narxi 1020$");
+//        System.out.println("Telefon narxi 1020$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1020$"
+        );
     }
 
     private static void tortpromaxblackikkinchiGB() {
-        System.out.println("Telefon narxi 1000$");
+//        System.out.println("Telefon narxi 1000$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 1000$"
+        );
 
     }
 
     private static void tortpromaxblackbirinchiGB() {
-        System.out.println("Telefon narxi 980$");
+//        System.out.println("Telefon narxi 980$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 980$"
+        );
 
     }
 
     private static void iPhone_14_Pro() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone14procolor = (new Scanner(System.in)).nextInt();
         switch (iphone14procolor) {
             case 1:
@@ -1018,13 +1265,13 @@ public class     Methods {
     }
 
     private static void tortproGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1054,13 +1301,13 @@ public class     Methods {
     }
 
     private static void tortproWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1091,13 +1338,13 @@ public class     Methods {
 
 
     private static void tortproBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 128 GB
-                2. 256 GB
-                3. 512 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1129,13 +1376,11 @@ public class     Methods {
 
 
     private static void iPhone_14() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone14color = (new Scanner(System.in)).nextInt();
         switch (iphone14color) {
             case 1:
@@ -1152,13 +1397,13 @@ public class     Methods {
     }
 
     private static void tortGreen() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14memory = (new Scanner(System.in)).nextInt();
         switch (iphone14memory) {
             case 1:
@@ -1174,27 +1419,48 @@ public class     Methods {
     }
 
     private static void tortgreenikkinchiGB() {
-        System.out.println("Telefon narxi 750$");
+//        System.out.println("Telefon narxi 750$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 750$"
+        );
     }
 
     private static void tortgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 730$");
+//        System.out.println("Telefon narxi 730$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 730$"
+        );
 
     }
 
     private static void tortgreenbirinchiGB() {
-        System.out.println("Telefon narxi 710$");
+//        System.out.println("Telefon narxi 710$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ + " 710$"
+        );
 
     }
 
     private static void tortWhite() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14memory = (new Scanner(System.in)).nextInt();
         switch (iphone14memory) {
             case 1:
@@ -1225,13 +1491,13 @@ public class     Methods {
 
 
     private static void tortBlack() {
-        System.out.println("Telefon xotirasini kiriting");
-        System.out.println("""
-                1. 64 GB
-                2. 128 GB
-                3. 256 GbB
-                
-                """);
+        System.out.println(
+                til == 'e'
+                        ? TANLASH_XOTIRA_EN
+                        : til == 'r'
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
+        );
         int iphone14memory = (new Scanner(System.in)).nextInt();
         switch (iphone14memory) {
             case 1:
@@ -1658,13 +1924,11 @@ public class     Methods {
     }
 
     private static void iPhone_12_Pro_Max() {
-        System.out.println("Rangni tanlang");
-        System.out.println("""
-                1.Black
-                2.White
-                3.Green
-                
-                """);
+        System.out.println(til == 'e'
+                ? TANLASH_COLOR_EN
+                : til == 'r'
+                ? TANLASH_COLOR_RU
+                : TANLASH_COLOR_EN);
         int iphone12promaxcolor = (new Scanner(System.in)).nextInt();
         switch (iphone12promaxcolor) {
             case 1:
