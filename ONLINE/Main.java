@@ -32,7 +32,7 @@ public class Main {
                 System.out.println("Xato kiritding,default uzbek tanlandi");
             }
 //            System.out.println(tanlanadiganTil == EN ? FIRST_MESSAGE_EN
-//                    : tanlanadiganTil == UZ ? FIRST_MESSAGE_UZ
+//        3            : tanlanadiganTil == UZ ? FIRST_MESSAGE_UZ
 //                    : tanlanadiganTil == RU ? FIRST_MESSAGE_RU
 //                    : FIRST_MESSAGE_UZ);
             System.out.println(

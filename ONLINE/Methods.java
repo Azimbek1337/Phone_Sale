@@ -616,7 +616,7 @@ public class     Methods {
                         : TANLASH_XOTIRA_UZ
 
         );
-        System.out.println("1320$");
+
 
         int iphone15prommemory = (new Scanner(System.in)).nextInt();
         switch (iphone15prommemory) {
@@ -699,7 +699,7 @@ public class     Methods {
                         : TANLASH_XOTIRA_UZ
 
         );
-        System.out.println("1220$");
+
         int iphone15pmemory = (new Scanner(System.in)).nextInt();
         switch (iphone15pmemory) {
             case 1:
@@ -758,7 +758,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 1200$");
+
 
         int iphone15pmemory = (new Scanner(System.in)).nextInt();
         switch (iphone15pmemory) {
@@ -820,7 +820,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 1180$");
+
         int iphone15pmemory = (new Scanner(System.in)).nextInt();
         switch (iphone15pmemory) {
             case 1:
@@ -901,7 +901,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 1200$");
+
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -962,7 +962,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println( " 1010$");
+
 
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
@@ -1024,7 +1024,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 1000$");
+
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -1106,7 +1106,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 1000$");
+
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -1161,10 +1161,10 @@ public class     Methods {
     private static void tortpromaxWhite() {
         System.out.print(
                 til == 'e'
-                        ? NARX_CIQARISH_EN
+                        ? TANLASH_XOTIRA_EN
                         : til == 'r'
-                        ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ
+                        ? TANLASH_XOTIRA_RU
+                        :TANLASH_XOTIRA_UZ
         );
         System.out.println(" 990$");
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
@@ -1219,12 +1219,12 @@ public class     Methods {
 
 
     private static void tortpromaxBlack() {
-        System.out.println(
+        System.out.print(
                 til == 'e'
-                        ? NARX_CIQARISH_EN
+                        ? TANLASH_XOTIRA_EN
                         : til == 'r'
-                        ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ
+                        ? TANLASH_XOTIRA_RU
+                        :TANLASH_XOTIRA_UZ
         );
         System.out.println(" 1000$");
 
@@ -1313,7 +1313,7 @@ public class     Methods {
                         : TANLASH_XOTIRA_UZ
 
         );
-        System.out.println(" 980$");
+
 
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
@@ -1370,10 +1370,10 @@ public class     Methods {
     private static void tortproWhite() {
         System.out.print(
                 til == 'e'
-                        ? NARX_CIQARISH_EN
+                        ? TANLASH_XOTIRA_EN
                         : til == 'r'
-                        ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ
+                        ? TANLASH_XOTIRA_RU
+                        :TANLASH_XOTIRA_UZ
         );
         System.out.println(" 810$");
 
@@ -1430,11 +1430,10 @@ public class     Methods {
     private static void tortproBlack() {
         System.out.print(
                 til == 'e'
-                        ? NARX_CIQARISH_EN
+                        ? TANLASH_XOTIRA_EN
                         : til == 'r'
-                        ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ
-
+                        ? TANLASH_XOTIRA_RU
+                        :TANLASH_XOTIRA_UZ
         );
         System.out.println("850$");
         int iphone14promemory = (new Scanner(System.in)).nextInt();
@@ -1575,7 +1574,7 @@ public class     Methods {
                         : til == 'r'
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
-
+// to do
         );
 
         int iphone14memory = (new Scanner(System.in)).nextInt();
@@ -1714,12 +1713,12 @@ public class     Methods {
     private static void uchpromaxGreen() {
         System.out.println(
                 til == 'e'
-                        ? NARX_CIQARISH_EN
+                        ? TANLASH_XOTIRA_EN
                         : til == 'r'
-                        ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ
+                        ? TANLASH_XOTIRA_RU
+                        : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 720$");
+
 
         int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxmemory) {
