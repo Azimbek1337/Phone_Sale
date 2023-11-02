@@ -86,22 +86,20 @@ public class     Methods {
             }
             newUsers[newUsers.length - 1] = enteredPN;
             users = newUsers;
+
             System.out.println(til == 'e'
                     ? REGISTER_PASSWORD_EN
                     : til == 'r'
                     ? REGISTER_PASSWORD_RU
                     : REGISTER_PASSWORD_UZ);
             String enteredPassword = (new Scanner(System.in)).next();
-
-            //
-
             String[] newUsersPS = new String[Passwords.length + 1];
             for (int i = 0; i < Passwords.length; i++) {
-                newUsers[i] = Passwords[i];
+                newUsersPS[i] = Passwords[i];
             }
-            newUsers[newUsers.length - 1] = enteredPN;
+            newUsersPS[newUsersPS.length - 1] = enteredPassword;
             Passwords = newUsersPS;
-            System.out.println();
+            System.out.println("Muvaffaqiyatli ro'yhattan o'tildi, login qiling");
         }
 
 
@@ -945,23 +943,26 @@ public class     Methods {
     private static void beshgreenbirinchiGB() {
 //        System.out.println("Telefon narxi 1010$");
 
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1010$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println( " 1010$");
     }
 
     private static void beshWhite() {
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? TANLASH_XOTIRA_EN
                         : til == 'r'
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
+        System.out.println( " 1010$");
+
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -978,48 +979,51 @@ public class     Methods {
 
     private static void beshwhiteuchichinchiGB() {
 //        System.out.println("Telefon narxi 1040$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1040$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println( " 1040$");
     }
 
     private static void beshwhiteikkinchiGB() {
 //        System.out.println("Telefon narxi 1020$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1020$"
+                        : NARX_CIQARISH_UZ
         );
-
+        System.out.println(" 1020$");
     }
 
     private static void beshwhitebirinchiGB() {
 //        System.out.println("Telefon narxi 1000$");
 
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1000$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println( " 1000$");
     }
 
 
     private static void beshBlack() {
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? TANLASH_XOTIRA_EN
                         : til == 'r'
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
+        System.out.println(" 1000$");
         int iphone15memory = (new Scanner(System.in)).nextInt();
         switch (iphone15memory) {
             case 1:
@@ -1036,37 +1040,39 @@ public class     Methods {
 
     private static void beshblackuchichinchiGB() {
 //        System.out.println("Telefon narxi 1040$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1040$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println( " 1040$");
     }
 
     private static void beshblackikkinchiGB() {
 //        System.out.println("Telefon narxi 1020$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1020$"
+                        : NARX_CIQARISH_UZ
         );
-
+        System.out.println( " 1020$");
     }
 
     private static void beshblackbirinchiGB() {
 //        System.out.println("Telefon narxi 1000$");
 
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1000$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println( " 1000$");
     }
 
 
@@ -1099,6 +1105,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
+        System.out.println(" 1000$");
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -1115,47 +1122,50 @@ public class     Methods {
 
     private static void tortpromaxgreenikkinchiGB() {
 //        System.out.println("Telefon narxi 1030$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1030$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 1030$");
     }
 
     private static void tortpromaxgreenuchichinchiGB() {
 //        System.out.println("Telefon narxi 1010$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1010$"
+                        : NARX_CIQARISH_UZ
         );
-
+        System.out.println( " 1010$");
 
     }
 
     private static void tortpromaxgreenbirinchiGB() {
 //        System.out.println("Telefon narxi 990$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 990$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 990$");
     }
 
     private static void tortpromaxWhite() {
-        System.out.println(
+        System.out.print(
                 til == 'e'
-                        ? TANLASH_XOTIRA_EN
+                        ? NARX_CIQARISH_EN
                         : til == 'r'
-                        ? TANLASH_XOTIRA_RU
-                        : TANLASH_XOTIRA_UZ
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 990$");
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -1171,16 +1181,38 @@ public class     Methods {
     }
 
     private static void tortpromaxwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 1020$");
+
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1020$");
     }
 
     private static void tortpromaxwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 1000$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1000$");
 
     }
 
     private static void tortpromaxwhitebirinchiGB() {
-        System.out.println("Telefon narxi 980$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 980$");
 
     }
 
@@ -1188,11 +1220,13 @@ public class     Methods {
     private static void tortpromaxBlack() {
         System.out.println(
                 til == 'e'
-                        ? TANLASH_XOTIRA_EN
+                        ? NARX_CIQARISH_EN
                         : til == 'r'
-                        ? TANLASH_XOTIRA_RU
-                        : TANLASH_XOTIRA_UZ
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 1000$");
+
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -1210,36 +1244,39 @@ public class     Methods {
     private static void tortpromaxblackuchichinchiGB() {
 
 //        System.out.println("Telefon narxi 1020$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1020$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 1020$");
     }
 
     private static void tortpromaxblackikkinchiGB() {
 //        System.out.println("Telefon narxi 1000$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 1000$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 1000$");
 
     }
 
     private static void tortpromaxblackbirinchiGB() {
 //        System.out.println("Telefon narxi 980$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 980$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 980$");
 
     }
 
@@ -1249,6 +1286,8 @@ public class     Methods {
                 : til == 'r'
                 ? TANLASH_COLOR_RU
                 : TANLASH_COLOR_EN);
+        System.out.println(" 980$");
+
         int iphone14procolor = (new Scanner(System.in)).nextInt();
         switch (iphone14procolor) {
             case 1:
@@ -1271,7 +1310,10 @@ public class     Methods {
                         : til == 'r'
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
+
         );
+        System.out.println(" 980$");
+
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1287,27 +1329,53 @@ public class     Methods {
     }
 
     private static void tortprogreenikkinchiGB() {
-        System.out.println("Telefon narxi 830$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 1000$");
+
     }
 
     private static void tortprogreenuchichinchiGB() {
-        System.out.println("Telefon narxi 850$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 850$");
+
 
     }
 
     private static void tortprogreenbirinchiGB() {
-        System.out.println("Telefon narxi 810$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 810$");
+
 
     }
 
     private static void tortproWhite() {
-        System.out.println(
+        System.out.print(
                 til == 'e'
-                        ? TANLASH_XOTIRA_EN
+                        ? NARX_CIQARISH_EN
                         : til == 'r'
-                        ? TANLASH_XOTIRA_RU
-                        : TANLASH_XOTIRA_UZ
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 810$");
+
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1323,28 +1391,51 @@ public class     Methods {
     }
 
     private static void tortprowhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 840$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 840$");
     }
 
     private static void tortprowhiteikkinchiGB() {
-        System.out.println("Telefon narxi 820$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 820$");
 
     }
 
     private static void tortprowhitebirinchiGB() {
-        System.out.println("Telefon narxi 800$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 800$");
 
     }
 
 
     private static void tortproBlack() {
-        System.out.println(
+        System.out.print(
                 til == 'e'
-                        ? TANLASH_XOTIRA_EN
+                        ? NARX_CIQARISH_EN
                         : til == 'r'
-                        ? TANLASH_XOTIRA_RU
-                        : TANLASH_XOTIRA_UZ
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+
         );
+        System.out.println("850$");
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1361,16 +1452,37 @@ public class     Methods {
 
     private static void tortproblackuchichinchiGB() {
 
-        System.out.println("Telefon narxi 840$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 840$");
     }
 
     private static void tortproblackikkinchiGB() {
         System.out.println("Telefon narxi 820$");
-
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 820$");
     }
 
     private static void tortproblackbirinchiGB() {
-        System.out.println("Telefon narxi 800$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 800$");
 
     }
 
@@ -1420,36 +1532,38 @@ public class     Methods {
 
     private static void tortgreenikkinchiGB() {
 //        System.out.println("Telefon narxi 750$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 750$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 750$");
     }
 
     private static void tortgreenuchichinchiGB() {
 //        System.out.println("Telefon narxi 730$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 730$"
+                        : NARX_CIQARISH_UZ
         );
-
+        System.out.println(" 730$");
     }
 
     private static void tortgreenbirinchiGB() {
 //        System.out.println("Telefon narxi 710$");
-        System.out.println(
+        System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
-                        : NARX_CIQARISH_UZ + " 710$"
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 710$");
 
     }
 
@@ -1460,7 +1574,9 @@ public class     Methods {
                         : til == 'r'
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
+
         );
+
         int iphone14memory = (new Scanner(System.in)).nextInt();
         switch (iphone14memory) {
             case 1:
@@ -1476,28 +1592,51 @@ public class     Methods {
     }
 
     private static void tortwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 740$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 740$");
     }
 
     private static void tortwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 720$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 730$");
 
     }
 
     private static void tortwhitebirinchiGB() {
-        System.out.println("Telefon narxi 700$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 700$");
 
     }
 
 
     private static void tortBlack() {
         System.out.println(
-                til == 'e'
+                 til == 'e'
                         ? TANLASH_XOTIRA_EN
                         : til == 'r'
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
+
         );
+
         int iphone14memory = (new Scanner(System.in)).nextInt();
         switch (iphone14memory) {
             case 1:
@@ -1513,16 +1652,37 @@ public class     Methods {
     }
 
     private static void tortblackuchichinchiGB() {
-        System.out.println("Telefon narxi 740$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 740$");
     }
 
     private static void tortblackikkinchiGB() {
-        System.out.println("Telefon narxi 720$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 720$");
 
     }
 
     private static void tortblackbirinchiGB() {
-        System.out.println("Telefon narxi 700$");
+        System.out.print(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 700$");
 
     }
 
@@ -1531,8 +1691,9 @@ public class     Methods {
                 til == 'e'
                         ? TANLASH_COLOR_EN
                         : til == 'r'
-                        ? TANLASH_COLOR_EN
+                        ? TANLASH_COLOR_RU
                         : TANLASH_COLOR_UZ
+
         );
         int iphone13promaxcolor = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxcolor) {
@@ -1552,11 +1713,13 @@ public class     Methods {
     private static void uchpromaxGreen() {
         System.out.println(
                 til == 'e'
-                        ? TANLASH_XOTIRA_EN
+                        ? NARX_CIQARISH_EN
                         : til == 'r'
-                        ? TANLASH_XOTIRA_RU
-                        : TANLASH_XOTIRA_UZ
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
         );
+        System.out.println(" 720$");
+
         int iphone13promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone13promaxmemory) {
             case 1:
@@ -1572,18 +1735,40 @@ public class     Methods {
     }
 
     private static void uchpromaxgreenikkinchiGB() {
-        System.out.println("Telefon narxi 740$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 740$");
     }
 
     private static void uchpromaxgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 720$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 720$");
 
     }
 
     private static void uchpromaxgreenbirinchiGB() {
-        System.out.println("Telefon narxi 700$");
-
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 700$");
     }
+
+
 
     private static void uchpromaxWhite() {
         System.out.println(
@@ -1608,16 +1793,39 @@ public class     Methods {
     }
 
     private static void uchpromaxwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 730$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 730$");
     }
+
 
     private static void uchpromaxwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 710$");
-
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 710$");
     }
 
+
+
     private static void uchpromaxwhitebirinchiGB() {
-        System.out.println("Telefon narxi 690$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 690$");
 
     }
 
@@ -1645,16 +1853,39 @@ public class     Methods {
     }
 
     private static void uchpromaxblackuchichinchiGB() {
-        System.out.println("Telefon narxi 730$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 730$");
     }
+
 
     private static void uchpromaxblackikkinchiGB() {
-        System.out.println("Telefon narxi 710$");
-
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 710$");
     }
 
+
+
     private static void uchpromaxblackbirinchiGB() {
-        System.out.println("Telefon narxi 690$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 690$");
 
     }
 
@@ -1704,16 +1935,37 @@ public class     Methods {
     }
 
     private static void uchprogreenikkinchiGB() {
-        System.out.println("Telefon narxi 680$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 680$");
     }
 
     private static void uchprogreenuchichinchiGB() {
-        System.out.println("Telefon narxi 660$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 660$");
 
     }
 
     private static void uchprogreenbirinchiGB() {
-        System.out.println("Telefon narxi 640$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 640$");
 
     }
 
@@ -1740,16 +1992,37 @@ public class     Methods {
     }
 
     private static void uchprowhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 670$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 670$");
     }
 
     private static void uchprowhiteikkinchiGB() {
-        System.out.println("Telefon narxi 650$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 650$");
 
     }
 
     private static void uchprowhitebirinchiGB() {
-        System.out.println("Telefon narxi 630$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 630$");
 
     }
 
@@ -1777,16 +2050,37 @@ public class     Methods {
     }
 
     private static void uchproblackuchichinchiGB() {
-        System.out.println("Telefon narxi 670$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 670$");
     }
 
     private static void uchproblackikkinchiGB() {
-        System.out.println("Telefon narxi 650$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 650$");
 
     }
 
     private static void uchproblackbirinchiGB() {
-        System.out.println("Telefon narxi 630$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 630$");
     }
 
 
@@ -1837,16 +2131,37 @@ public class     Methods {
     }
 
     private static void uchgreenikkinchiGB() {
-        System.out.println("Telefon narxi 630$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 630$");
     }
 
     private static void uchgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 610$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 610$");
 
     }
 
     private static void uchgreenbirinchiGB() {
-        System.out.println("Telefon narxi 590$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 590$");
 
     }
 
@@ -1873,16 +2188,37 @@ public class     Methods {
     }
 
     private static void uchwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 620$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 620$");
     }
 
     private static void uchwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 600$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 600$");
 
     }
 
     private static void uchwhitebirinchiGB() {
-        System.out.println("Telefon narxi 580$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 580$");
 
     }
 
@@ -1910,16 +2246,37 @@ public class     Methods {
     }
 
     private static void uchblackuchichinchiGB() {
-        System.out.println("Telefon narxi 620$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 620$");
     }
 
     private static void uchblackikkinchiGB() {
-        System.out.println("Telefon narxi 600$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 600$");
 
     }
 
     private static void uchblackbirinchiGB() {
-        System.out.println("Telefon narxi 580$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 580$");
 
     }
 
@@ -1968,16 +2325,37 @@ public class     Methods {
     }
 
     private static void ikkipromaxgreenikkinchiGB() {
-        System.out.println("Telefon narxi 540$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 540$");
     }
 
     private static void ikkipromaxgreenuchichinchiGB() {
-        System.out.println("Telefon narxi 560$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 560$");
 
     }
 
     private static void ikkipromaxgreenbirinchiGB() {
-        System.out.println("Telefon narxi 520$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 520$");
 
     }
 
@@ -2004,16 +2382,37 @@ public class     Methods {
     }
 
     private static void ikkipromaxwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 550$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 550$");
     }
 
     private static void ikkipromaxwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 530$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 530$");
 
     }
 
     private static void ikkipromaxwhitebirinchiGB() {
-        System.out.println("Telefon narxi 510$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 510$");
 
     }
 
@@ -2041,16 +2440,37 @@ public class     Methods {
     }
 
     private static void ikkipromaxblackuchichinchiGB() {
-        System.out.println("Telefon narxi 550$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 550$");
     }
 
     private static void ikkipromaxblackikkinchiGB() {
-        System.out.println("Telefon narxi 530$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 530$");
 
     }
 
     private static void ikkipromaxblackbirinchiGB() {
-        System.out.println("Telefon narxi 510$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 510$");
 
     }
 
@@ -2100,16 +2520,37 @@ public class     Methods {
     }
 
     private static void ikkiprogreenikkinchiGB() {
-        System.out.println("Telefon narxi 480$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 480$");
     }
 
     private static void ikkiprogreenuchichinchiGB() {
-        System.out.println("Telefon narxi 500$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 500$");
 
     }
 
     private static void ikkiprogreenbirinchiGB() {
-        System.out.println("Telefon narxi 460$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 460$");
 
     }
 
@@ -2136,16 +2577,37 @@ public class     Methods {
     }
 
     private static void ikkiprowhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 490$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 490$");
     }
 
     private static void ikkiprowhiteikkinchiGB() {
-        System.out.println("Telefon narxi 470$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 470$");
 
     }
 
     private static void ikkiprowhitebirinchiGB() {
-        System.out.println("Telefon narxi 450$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 450$");
 
     }
 
@@ -2173,16 +2635,37 @@ public class     Methods {
     }
 
     private static void ikkiproblackuchichinchiGB() {
-        System.out.println("Telefon narxi 490$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 490$");
     }
 
     private static void ikkiproblackikkinchiGB() {
-        System.out.println("Telefon narxi 470$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 470$");
 
     }
 
     private static void ikkiproblackbirinchiGB() {
-        System.out.println("Telefon narxi 450$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 450$");
 
     }
 
@@ -2232,16 +2715,37 @@ public class     Methods {
     }
 
     private static void ikkigreenikkinchiGB() {
-        System.out.println("Telefon narxi 450$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 450$");
     }
 
     private static void ikkigreenuchichinchiGB() {
-        System.out.println("Telefon narxi 430$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 430$");
 
     }
 
     private static void ikkigreenbirinchiGB() {
-        System.out.println("Telefon narxi 410$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 410$");
 
     }
 
@@ -2268,16 +2772,37 @@ public class     Methods {
     }
 
     private static void ikkiwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi 440$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 440$");
     }
 
     private static void ikkiwhiteikkinchiGB() {
-        System.out.println("Telefon narxi 420$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 420$");
 
     }
 
     private static void ikkiwhitebirinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 400$");
 
     }
 
@@ -2305,16 +2830,37 @@ public class     Methods {
     }
 
     private static void ikkiblackuchichinchiGB() {
-        System.out.println("Telefon narxi 440$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 440$");
     }
 
     private static void ikkiblackikkinchiGB() {
-        System.out.println("Telefon narxi 420$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 420$");
 
     }
 
     private static void ikkiblackbirinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 400$");
 
     }
 
@@ -2366,16 +2912,37 @@ public class     Methods {
     }
 
     private static void birpromaxgreenuchinchiGB() {
-        System.out.println("Telefon narxi 500$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 500$");
     }
 
     private static void birpromaxgreenikkinchiGB() {
-        System.out.println("Telefon narxi 480$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 480$");
 
     }
 
     private static void birpromaxgreenbirinchiGB() {
-        System.out.println("Telefon narxi 460$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 460$");
     }
 
     private static void birpromaxGold() {
@@ -2402,16 +2969,37 @@ public class     Methods {
     }
 
     private static void birpromaxgolduchinchiGB() {
-        System.out.println("Telefon narxi 500$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 500$");
     }
 
     private static void birpromaxgoldikkinchiGB() {
-        System.out.println("Telefon narxi 480$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 480$");
 
     }
 
     private static void birpromaxgoldbirinchiGB() {
-        System.out.println("Telefon narxi 460$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 460$");
     }
 
 
@@ -2441,16 +3029,37 @@ public class     Methods {
     }
 
     private static void birpromaxspaceblueuchinchiGB() {
-        System.out.println("Telefon narxi 510$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 510$");
     }
 
     private static void birpromaxspaceblueikkinchiGB() {
-        System.out.println("Telefon narxi 490$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 490$");
 
     }
 
     private static void birpromaxspacebluebirinchiGB() {
-        System.out.println("Telefon narxi 470$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 5700$");
     }
 
 
@@ -2505,16 +3114,37 @@ public class     Methods {
     }
 
     private static void birprogreenuchinchiGB() {
-        System.out.println("Telefon narxi 440$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 440$");
     }
 
     private static void birprogreenikkinchiGB() {
-        System.out.println("Telefon narxi 420$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 420$");
 
     }
 
     private static void birprogreenbirinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 400$");
     }
 
     private static void Gold() {
@@ -2540,16 +3170,37 @@ public class     Methods {
     }
 
     private static void birprogolduchinchiGB() {
-        System.out.println("Telefon narxi 440$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 440$");
     }
 
     private static void birprogoldikkinchiGB() {
-        System.out.println("Telefon narxi 420$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 420$");
 
     }
 
     private static void birprogoldbirinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 400$");
     }
 
 
@@ -2578,16 +3229,37 @@ public class     Methods {
     }
 
     private static void birprospaceblueuchinchiGB() {
-        System.out.println("Telefon narxi 450$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 450$");
     }
 
     private static void birprospaceblueikkinchiGB() {
-        System.out.println("Telefon narxi 430$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 430$");
 
     }
 
     private static void birprospacebluebirinchiGB() {
-        System.out.println("Telefon narxi 410$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 410$");
     }
 
 
@@ -2640,16 +3312,37 @@ public class     Methods {
     }
 
     private static void greenikkinchiGB() {
-        System.out.println("Telefon narxi 400$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 400$");
     }
 
     private static void greenuchichinchiGB() {
-        System.out.println("Telefon narxi 380$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 380$");
 
     }
 
     private static void greenbirinchiGB() {
-        System.out.println("Telefon narxi 360$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 360$");
 
     }
 
@@ -2676,16 +3369,37 @@ public class     Methods {
     }
 
     private static void whiteuchichinchiGB() {
-        System.out.println("Telefon narxi 390$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 390$");
     }
 
     private static void whiteikkinchiGB() {
-        System.out.println("Telefon narxi 370$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 370$");
 
     }
 
     private static void whitebirinchiGB() {
-        System.out.println("Telefon narxi 350$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 350$");
 
     }
 
@@ -2713,16 +3427,37 @@ public class     Methods {
     }
 
     private static void blackuchichinchiGB() {
-        System.out.println("Telefon narxi 390$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 390$");
     }
 
     private static void blackikkinchiGB() {
-        System.out.println("Telefon narxi 370$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 370$");
 
     }
 
     private static void blackbirinchiGB() {
-        System.out.println("Telefon narxi 350$");
+        System.out.println(
+                til == 'e'
+                        ? NARX_CIQARISH_EN
+                        : til == 'r'
+                        ? NARX_CIQARISH_RU
+                        : NARX_CIQARISH_UZ
+        );
+        System.out.println(" 350$");
 
     }
 }
