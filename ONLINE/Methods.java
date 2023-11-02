@@ -289,13 +289,13 @@ public class     Methods {
                 tanlanganModelSAM = "Samsung S23 Plus";
                 break;
             case 6:
-                tanlanganModelSAM = "Samsung Z Flip";
+                tanlanganModelSAM = "Samsung_S23_Ultra";
                 break;
             case 7:
-                tanlanganModelSAM = "Samsung_Z_Fold_5";
+                tanlanganModelSAM = "Samsung Z Flip";
                 break;
             case 8:
-                tanlanganModelSAM = "IPhone 15 Pro Max";
+                tanlanganModelSAM = "Samsung_Z_Fold_5";
                 break;
 
 
