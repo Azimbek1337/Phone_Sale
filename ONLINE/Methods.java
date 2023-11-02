@@ -516,16 +516,16 @@ public class     Methods {
     }
 
     private static void beshpmgreenikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1380$");
     }
 
     private static void beshpmgreenuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1360$");
 
     }
 
     private static void beshpmgreenbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1340$");
 
     }
 
@@ -552,16 +552,16 @@ public class     Methods {
     }
 
     private static void beshpmwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1360$");
     }
 
     private static void beshpmwhiteikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1340$");
 
     }
 
     private static void beshpmwhitebirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1320$");
 
     }
 
@@ -589,16 +589,16 @@ public class     Methods {
     }
 
     private static void beshpmblackuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1360$");
     }
 
     private static void beshpmblackikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1340$");
 
     }
 
     private static void beshpmblackbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1320$");
 
     }
 
@@ -648,16 +648,16 @@ public class     Methods {
     }
 
     private static void beshpgreenikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1240$");
     }
 
     private static void beshpgreenuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1220$");
 
     }
 
     private static void beshpgreenbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1200$");
 
     }
 
@@ -684,16 +684,16 @@ public class     Methods {
     }
 
     private static void beshpwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1220$");
     }
 
     private static void beshpwhiteikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1200$");
 
     }
 
     private static void beshpwhitebirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1180$");
 
     }
 
@@ -721,16 +721,16 @@ public class     Methods {
     }
 
     private static void beshpblackuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1220$");
     }
 
     private static void beshpblackikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1200$");
 
     }
 
     private static void beshpblackbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1180$");
 
     }
 
@@ -780,16 +780,16 @@ public class     Methods {
     }
 
     private static void beshgreenikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1050$");
     }
 
     private static void beshgreenuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1030$");
 
     }
 
     private static void beshgreenbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1010$");
 
     }
 
@@ -816,16 +816,16 @@ public class     Methods {
     }
 
     private static void beshwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1040$");
     }
 
     private static void beshwhiteikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1020$");
 
     }
 
     private static void beshwhitebirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1000$");
 
     }
 
@@ -853,16 +853,16 @@ public class     Methods {
     }
 
     private static void beshblackuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1040$");
     }
 
     private static void beshblackikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1020$");
 
     }
 
     private static void beshblackbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1000$");
 
     }
 
@@ -913,16 +913,16 @@ public class     Methods {
     }
 
     private static void tortpromaxgreenikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1030$");
     }
 
     private static void tortpromaxgreenuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1010$");
 
     }
 
     private static void tortpromaxgreenbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 990$");
 
     }
 
@@ -949,16 +949,16 @@ public class     Methods {
     }
 
     private static void tortpromaxwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1020$");
     }
 
     private static void tortpromaxwhiteikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1000$");
 
     }
 
     private static void tortpromaxwhitebirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 980$");
 
     }
 
@@ -987,16 +987,16 @@ public class     Methods {
 
     private static void tortpromaxblackuchichinchiGB() {
 
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1020$");
     }
 
     private static void tortpromaxblackikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 1000$");
 
     }
 
     private static void tortpromaxblackbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 980$");
 
     }
 
@@ -1046,16 +1046,16 @@ public class     Methods {
     }
 
     private static void tortprogreenikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 830$");
     }
 
     private static void tortprogreenuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 850$");
 
     }
 
     private static void tortprogreenbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 810$");
 
     }
 
@@ -1082,16 +1082,16 @@ public class     Methods {
     }
 
     private static void tortprowhiteuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 840$");
     }
 
     private static void tortprowhiteikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 820$");
 
     }
 
     private static void tortprowhitebirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 800$");
 
     }
 
@@ -1120,16 +1120,16 @@ public class     Methods {
 
     private static void tortproblackuchichinchiGB() {
 
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 840$");
     }
 
     private static void tortproblackikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 820$");
 
     }
 
     private static void tortproblackbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 800$");
 
     }
 
@@ -1180,16 +1180,16 @@ public class     Methods {
     }
 
     private static void tortgreenikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 750$");
     }
 
     private static void tortgreenuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 730$");
 
     }
 
     private static void tortgreenbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 710$");
 
     }
 
@@ -1216,16 +1216,16 @@ public class     Methods {
     }
 
     private static void tortwhiteuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 740$");
     }
 
     private static void tortwhiteikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 720$");
 
     }
 
     private static void tortwhitebirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 700$");
 
     }
 
@@ -1253,16 +1253,16 @@ public class     Methods {
     }
 
     private static void tortblackuchichinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 740$");
     }
 
     private static void tortblackikkinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 720$");
 
     }
 
     private static void tortblackbirinchiGB() {
-        System.out.println("Telefon narxi $");
+        System.out.println("Telefon narxi 700$");
 
     }
 
