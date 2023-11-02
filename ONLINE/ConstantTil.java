@@ -119,21 +119,21 @@ public  static String SPECIAL3_COLOR_EN = "Deep Purple";
     public static String MENU_IPHONE_UZ = """
         Apple modelini tanlang
             1. iPhone 11           2. iPhone 12           7. iPhone 13           10. iPhone 14            13. iPhone 15 
-            2. iPhone 11 Pro       5. iPhone 12 Pro       8. iPhone 12 Pro Max   11. iPhone 14 Pro        14. iPhone 15 Pro 
-            3. iPhone 11 Pro Max   6. iPhone 12 Pro Max   9. iPhone 12 Pro Max   12. iPhone 14 Pro Max    15. iPhone 15 Pro Max  
+            2. iPhone 11 Pro       5. iPhone 12 Pro       8. iPhone 13 Pro       11. iPhone 14 Pro        14. iPhone 15 Pro 
+            3. iPhone 11 Pro Max   6. iPhone 12 Pro Max   9. iPhone 13 Pro Max   12. iPhone 14 Pro Max    15. iPhone 15 Pro Max  
     """;
 
     public static String MENU_IPHONE_EN = """
         Choose model of iphone
             1. iPhone 11           2. iPhone 12           7. iPhone 13           10. iPhone 14            13. iPhone 15 
-            2. iPhone 11 Pro       5. iPhone 12 Pro       8. iPhone 12 Pro Max   11. iPhone 14 Pro        14. iPhone 15 Pro 
-            3. iPhone 11 Pro Max   6. iPhone 12 Pro Max   9. iPhone 12 Pro Max   12. iPhone 14 Pro Max    15. iPhone 15 Pro Max  
+            2. iPhone 11 Pro       5. iPhone 12 Pro       8. iPhone 13 Pro       11. iPhone 14 Pro        14. iPhone 15 Pro 
+            3. iPhone 11 Pro Max   6. iPhone 12 Pro Max   9. iPhone 13 Pro Max   12. iPhone 14 Pro Max    15. iPhone 15 Pro Max  
     """;
     public static String MENU_IPHONE_RU = """
         Выбрать модель айфона
             1. iPhone 11           2. iPhone 12           7. iPhone 13           10. iPhone 14            13. iPhone 15 
-            2. iPhone 11 Pro       5. iPhone 12 Pro       8. iPhone 12 Pro Max   11. iPhone 14 Pro        14. iPhone 15 Pro 
-            3. iPhone 11 Pro Max   6. iPhone 12 Pro Max   9. iPhone 12 Pro Max   12. iPhone 14 Pro Max    15. iPhone 15 Pro Max  
+            2. iPhone 11 Pro       5. iPhone 12 Pro       8. iPhone 13 Pro       11. iPhone 14 Pro        14. iPhone 15 Pro 
+            3. iPhone 11 Pro Max   6. iPhone 12 Pro Max   9. iPhone 13 Pro Max   12. iPhone 14 Pro Max    15. iPhone 15 Pro Max  
     """;
     //Samsung
     public static String MENU_SAMSUNG_UZ = """
