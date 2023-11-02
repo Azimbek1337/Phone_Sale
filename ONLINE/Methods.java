@@ -478,22 +478,22 @@ public class     Methods {
                 3.Green
                 
                 """);
-        int iphone15pmcolor = (new Scanner(System.in)).nextInt();
-        switch (iphone15pmcolor) {
+        int iphone15promcolor = (new Scanner(System.in)).nextInt();
+        switch (iphone15promcolor) {
             case 1:
-                beshpmBlack();
+                beshpromBlack();
                 break;
             case 2:
-                beshpmWhite();
+                beshpromWhite();
                 break;
             case 3:
-                beshpmGreen();
+                beshpromGreen();
                 break;
         }
 
     }
 
-    private static void beshpmGreen() {
+    private static void beshpromGreen() {
         System.out.println("Telefon xotirasini kiriting");
         System.out.println("""
                 1. 128 GB
@@ -501,35 +501,35 @@ public class     Methods {
                 3. 512 GB
                 
                 """);
-        int iphone15pmmemory = (new Scanner(System.in)).nextInt();
-        switch (iphone15pmmemory) {
+        int iphone15prommemory = (new Scanner(System.in)).nextInt();
+        switch (iphone15prommemory) {
             case 1:
-                beshpmgreenbirinchiGB();
+                beshpromgreenbirinchiGB();
                 break;
             case 2:
-                beshpmgreenikkinchiGB();
+                beshpromgreenikkinchiGB();
                 break;
             case 3:
-                beshpmgreenuchichinchiGB();
+                beshpromgreenuchichinchiGB();
                 break;
         }
     }
 
-    private static void beshpmgreenikkinchiGB() {
+    private static void beshpromgreenikkinchiGB() {
         System.out.println("Telefon narxi 1380$");
     }
 
-    private static void beshpmgreenuchichinchiGB() {
+    private static void beshpromgreenuchichinchiGB() {
         System.out.println("Telefon narxi 1360$");
 
     }
 
-    private static void beshpmgreenbirinchiGB() {
+    private static void beshpromgreenbirinchiGB() {
         System.out.println("Telefon narxi 1340$");
 
     }
 
-    private static void beshpmWhite() {
+    private static void beshpromWhite() {
         System.out.println("Telefon xotirasini kiriting");
         System.out.println("""
                 1. 128 GB
@@ -537,36 +537,36 @@ public class     Methods {
                 3. 512 GB
                 
                 """);
-        int iphone15pmmemory = (new Scanner(System.in)).nextInt();
-        switch (iphone15pmmemory) {
+        int iphone15prommemory = (new Scanner(System.in)).nextInt();
+        switch (iphone15prommemory) {
             case 1:
-                beshpmwhitebirinchiGB();
+                beshpromwhitebirinchiGB();
                 break;
             case 2:
-                beshpmwhiteikkinchiGB();
+                beshpromwhiteikkinchiGB();
                 break;
             case 3:
-                beshpmwhiteuchichinchiGB();
+                beshpromwhiteuchichinchiGB();
                 break;
         }
     }
 
-    private static void beshpmwhiteuchichinchiGB() {
+    private static void beshpromwhiteuchichinchiGB() {
         System.out.println("Telefon narxi 1360$");
     }
 
-    private static void beshpmwhiteikkinchiGB() {
+    private static void beshpromwhiteikkinchiGB() {
         System.out.println("Telefon narxi 1340$");
 
     }
 
-    private static void beshpmwhitebirinchiGB() {
+    private static void beshpromwhitebirinchiGB() {
         System.out.println("Telefon narxi 1320$");
 
     }
 
 
-    private static void beshpmBlack() {
+    private static void beshpromBlack() {
         System.out.println("Telefon xotirasini kiriting");
         System.out.println("""
                 1. 128 GB
@@ -574,30 +574,30 @@ public class     Methods {
                 3. 512 GbB
                 
                 """);
-        int iphone15pmmemory = (new Scanner(System.in)).nextInt();
-        switch (iphone15pmmemory) {
+        int iphone15prommemory = (new Scanner(System.in)).nextInt();
+        switch (iphone15prommemory) {
             case 1:
-                beshpmblackbirinchiGB();
+                beshpromblackbirinchiGB();
                 break;
             case 2:
-                beshpmblackikkinchiGB();
+                beshpromblackikkinchiGB();
                 break;
             case 3:
-                beshpmblackuchichinchiGB();
+                beshpromblackuchichinchiGB();
                 break;
         }
     }
 
-    private static void beshpmblackuchichinchiGB() {
+    private static void beshpromblackuchichinchiGB() {
         System.out.println("Telefon narxi 1360$");
     }
 
-    private static void beshpmblackikkinchiGB() {
+    private static void beshpromblackikkinchiGB() {
         System.out.println("Telefon narxi 1340$");
 
     }
 
-    private static void beshpmblackbirinchiGB() {
+    private static void beshpromblackbirinchiGB() {
         System.out.println("Telefon narxi 1320$");
 
     }
