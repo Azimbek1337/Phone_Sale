@@ -468,7 +468,7 @@ public class     Methods {
                 ? TANLASH_COLOR_EN
                 : til == 'r'
                 ? TANLASH_COLOR_RU
-                : TANLASH_COLOR_EN);
+                : TANLASH_COLOR_UZ);
         int iphone15promxcolor = (new Scanner(System.in)).nextInt();
         switch (iphone15promxcolor) {
             case 1:
@@ -492,7 +492,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         : TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 1380$");
+
 
 
         int iphone15prommemory = (new Scanner(System.in)).nextInt();
@@ -741,13 +741,15 @@ public class     Methods {
 
     private static void beshpgreenbirinchiGB() {
 //        System.out.println("Telefon narxi 1200$");
-        System.out.print(
+       System.out.print(
                 til == 'e'
                         ? NARX_CIQARISH_EN
                         : til == 'r'
                         ? NARX_CIQARISH_RU
                         : NARX_CIQARISH_UZ
         );
+        System.out.println(" 1220$");
+
     }
 
     private static void beshpWhite() {
@@ -877,7 +879,7 @@ public class     Methods {
                 ? TANLASH_COLOR_EN
                 : til == 'r'
                 ? TANLASH_COLOR_RU
-                : TANLASH_COLOR_EN);
+                : TANLASH_COLOR_UZ);
         int iphone15color = (new Scanner(System.in)).nextInt();
         switch (iphone15color) {
             case 1:
@@ -1166,7 +1168,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         :TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 990$");
+
         int iphone14promaxmemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promaxmemory) {
             case 1:
@@ -1287,7 +1289,7 @@ public class     Methods {
                 : til == 'r'
                 ? TANLASH_COLOR_RU
                 : TANLASH_COLOR_EN);
-        System.out.println(" 980$");
+
 
         int iphone14procolor = (new Scanner(System.in)).nextInt();
         switch (iphone14procolor) {
@@ -1375,7 +1377,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         :TANLASH_XOTIRA_UZ
         );
-        System.out.println(" 810$");
+
 
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
@@ -1435,7 +1437,7 @@ public class     Methods {
                         ? TANLASH_XOTIRA_RU
                         :TANLASH_XOTIRA_UZ
         );
-        System.out.println("850$");
+
         int iphone14promemory = (new Scanner(System.in)).nextInt();
         switch (iphone14promemory) {
             case 1:
@@ -1492,7 +1494,7 @@ public class     Methods {
                 ? TANLASH_COLOR_EN
                 : til == 'r'
                 ? TANLASH_COLOR_RU
-                : TANLASH_COLOR_EN);
+                : TANLASH_COLOR_UZ);
         int iphone14color = (new Scanner(System.in)).nextInt();
         switch (iphone14color) {
             case 1:
@@ -1894,7 +1896,7 @@ public class     Methods {
                 til == 'e'
                         ? TANLASH_COLOR_EN
                         : til == 'r'
-                        ? TANLASH_COLOR_EN
+                        ? TANLASH_COLOR_RU
                         : TANLASH_COLOR_UZ
         );
         int iphone13procolor = (new Scanner(System.in)).nextInt();
@@ -2674,7 +2676,7 @@ public class     Methods {
                 til == 'e'
                         ? TANLASH_COLOR_EN
                         : til == 'r'
-                        ? TANLASH_COLOR_EN
+                        ? TANLASH_COLOR_RU
                         : TANLASH_COLOR_UZ
         );
         int iphone12color = (new Scanner(System.in)).nextInt();
