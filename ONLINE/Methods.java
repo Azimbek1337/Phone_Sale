@@ -471,8 +471,8 @@ public class     Methods {
                 3.Green
                 
                 """);
-        int iphone15promaxcolor = (new Scanner(System.in)).nextInt();
-        switch (iphone15promaxcolor) {
+        int iphone15promxcolor = (new Scanner(System.in)).nextInt();
+        switch (iphone15promxcolor) {
             case 1:
                 beshpromBlack();
                 break;
