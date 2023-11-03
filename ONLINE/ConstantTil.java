@@ -138,21 +138,21 @@ public  static String SPECIAL3_COLOR_EN = "Deep Purple";
     //Samsung
     public static String MENU_SAMSUNG_UZ = """
         Samsung brendini tanlang
- 1. Samsung A04       4. Samsung S23          7. Samsung Z Flip 
+ 1. Samsung A04       4. Samsung S23          7. Samsung Z Flip_5 
  2. Samsung A14       5. Samsung S23 Plus     8. Samsung_Z_Fold_5
  3. Samsung A34       6. Samsung_S23_Ultra    
     """;
 
     public static String MENU_SAMSUNG_EN = """
         Choose brand of Samsung
- 1. Samsung A04       4. Samsung S23          7. Samsung Z Flip 
+ 1. Samsung A04       4. Samsung S23          7. Samsung Z Flip_5 
  2. Samsung A14       5. Samsung S23 Plus     8. Samsung_Z_Fold_5
- 3. Samsung A34       6. Samsung_S23_Ultra    15.Samsung S20
+ 3. Samsung A34       6. Samsung_S23_Ultra    
     """;
 
     public static String MENU_SAMSUNG_RU = """
          Выбрать модель Cамсунг
- 1. Samsung A04       4. Samsung S23          7. Samsung Z Flip 
+ 1. Samsung A04       4. Samsung S23          7. Samsung Z Flip_5 
  2. Samsung A14       5. Samsung S23 Plus     8. Samsung_Z_Fold_5
  3. Samsung A34       6. Samsung_S23_Ultra    
     """;
