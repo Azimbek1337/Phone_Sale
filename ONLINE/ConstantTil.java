@@ -154,7 +154,7 @@ public  static String SPECIAL3_COLOR_EN = "Deep Purple";
          Выбрать модель Cамсунг
  1. Samsung A04       4. Samsung S23          7. Samsung Z Flip 
  2. Samsung A14       5. Samsung S23 Plus     8. Samsung_Z_Fold_5
- 3. Samsung A34       6. Samsung_S23_Ultra    15.Samsung S20
+ 3. Samsung A34       6. Samsung_S23_Ultra    
     """;
 
 //Rangni tanlang
@@ -200,7 +200,9 @@ public  static String SPECIAL3_COLOR_EN = "Deep Purple";
 public  static String NARX_CIQARISH_EN = "Cost of phone";
 public  static String NARX_CIQARISH_RU = "Цена телефона";
 public  static String NARX_CIQARISH_UZ = "Telefon narxi";
-
+    public  static String SUCCSES_ENTER_UZ = "Muvaffaqiyatli ro'yhattan o'tildi, login qiling";
+    public  static String SUCCSES_ENTER_RU = "Успешная регистрация, пожалуйста, войдите";
+    public  static String SUCCSES_ENTER_EN = "Successfully registered, please login";
     public static final char EN = 'e';
     public static final char UZ = 'u';
     public static final char RU = 'r';

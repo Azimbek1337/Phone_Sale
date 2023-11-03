@@ -99,13 +99,19 @@ public class     Methods {
             }
             newUsersPS[newUsersPS.length - 1] = enteredPassword;
             Passwords = newUsersPS;
-            System.out.println("Muvaffaqiyatli ro'yhattan o'tildi, login qiling");
+            System.out.println(
+                    til == 'e'
+                            ? SUCCSES_ENTER_EN
+                            : til == 'r'
+                            ? SUCCSES_ENTER_RU
+                            : SUCCSES_ENTER_UZ);;
         }
 
 
     }
 
     public static void menuphone() {
+
 
         System.out.println(
                til == 'e'
@@ -208,33 +214,117 @@ public class     Methods {
                 break;
         }
         if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 64) {
-            System.out.println("Telefon narxi 180$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 180$");
         } else if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 128 ) {
-            System.out.println("Telefon narxi 200$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 200$");
         } else if (tanlanganModel.equals("12 Pro") && tanlanganXotira == 256) {
-            System.out.println("Telefon narxi 210$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 210$");
         }
 
         if (tanlanganModel.equals("12 ") && tanlanganXotira == 64) {
-            System.out.println("Telefon narxi 150$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 150$");
         } else if (tanlanganModel.equals("12 ") && tanlanganXotira == 128 ) {
-            System.out.println("Telefon narxi 170$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 170$");
         } else if (tanlanganModel.equals("12") && tanlanganXotira == 256) {
-            System.out.println("Telefon narxi 180$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 180$");
         }
         if (tanlanganModel.equals("13") && tanlanganXotira == 64) {
-            System.out.println("Telefon narxi 800$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 800$");
         } else if (tanlanganModel.equals("13") && tanlanganXotira == 128 ) {
-            System.out.println("Telefon narxi 820$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 820$");
         } else if (tanlanganModel.equals("13") && tanlanganXotira == 256) {
-            System.out.println("Telefon narxi 840$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 840$");
         }
-        if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 64) {
-            System.out.println("Telefon narxi 1100$");
+        if (tanlanganModel.equals("13T") && tanlanganXotira == 64) {
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1100$");
         } else if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 128 ) {
-            System.out.println("Telefon narxi 1120$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1120$");
         } else if (tanlanganModel.equals("13T_Pro") && tanlanganXotira == 256) {
-            System.out.println("Telefon narxi 1140$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1140$");
         }
 //        if (tanlanganModel.equals("13") && tanlanganXotira == 64 && tanlanganRang.equals("Black")) {
 //            System.out.println("200");
@@ -246,18 +336,60 @@ public class     Methods {
 
 
         else if (tanlanganModel.equals("13_Pro") && tanlanganXotira == 64) {
-            System.out.println("Telefon narxi 930$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 930$");
         } else if (tanlanganModel.equals("13_Pro") && tanlanganXotira == 128) {
-            System.out.println("Telefon narxi 950$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 950$");
         } else if (tanlanganModel.equals("13_Pro")&& tanlanganXotira == 256) {
-            System.out.println("Telefon narxi 970$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 970$");
         }
         else if (tanlanganModel.equals("13T") && tanlanganXotira == 64) {
-            System.out.println("Telefon narxi 1020$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1020$");
         } else if (tanlanganModel.equals("13T") && tanlanganXotira == 128) {
-            System.out.println("Telefon narxi 1040$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1040$");
         } else if (tanlanganModel.equals("13T")&& tanlanganXotira == 256) {
-            System.out.println("Telefon narxi 1060$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1060$");
         }
     }
     private static void Samsung() {
@@ -288,9 +420,12 @@ public class     Methods {
                 tanlanganModelSAM = "Samsung S23 Plus";
                 break;
             case 6:
-                tanlanganModelSAM = "Samsung Z Flip";
+                tanlanganModelSAM = "Samsung_S23_Ultra";
                 break;
             case 7:
+                tanlanganModelSAM = "Samsung Z Flip";
+                break;
+            case 8:
                 tanlanganModelSAM = "Samsung_Z_Fold_5";
                 break;
 
@@ -331,33 +466,117 @@ public class     Methods {
                 break;
         }
         if (tanlanganModelSAM.equals("Samsung A04") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 150$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 150$");
         } else if (tanlanganModelSAM.equals("Samsung A04") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 170$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 170$");
         } else if (tanlanganModelSAM.equals("Samsung A04") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 180$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 180$");
         }
 
         if (tanlanganModelSAM.equals("Samsung A14") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 150$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 150$");
         } else if (tanlanganModelSAM.equals("Samsung A14") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 170$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 170$");
         } else if (tanlanganModelSAM.equals("Samsung A14") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 180$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 180$");
         }
         if (tanlanganModelSAM.equals("Samsung A34") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 300$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 300$");
         } else if (tanlanganModelSAM.equals("Samsung A34") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 320$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 320$");
         } else if (tanlanganModelSAM.equals("Samsung A34") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 340$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 340$");
         }
         if (tanlanganModelSAM.equals("Samsung S23") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 800$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 800$");
         } else if (tanlanganModelSAM.equals("Samsung S23") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 820$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 820$");
         } else if (tanlanganModelSAM.equals("Samsung S23") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 840$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 840$");
         }
 //        if (tanlanganModel.equals("13") && tanlanganXotira == 64 && tanlanganRang.equals("Black")) {
 //            System.out.println("200");
@@ -369,33 +588,117 @@ public class     Methods {
 
 
         else if (tanlanganModelSAM.equals("Samsung S23 Plus") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 830$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println("830$");
         } else if (tanlanganModelSAM.equals("Samsung S23 Plus") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 860$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 860$");
         } else if (tanlanganModelSAM.equals("Samsung S23 Plus") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 880$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println("880$");
 
         } else if (tanlanganModelSAM.equals("Samsung_S23_Ultra") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 1000$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1000$");
         } else if (tanlanganModelSAM.equals("Samsung_S23_Ultra") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 1030$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1030$");
         } else if (tanlanganModelSAM.equals("Samsung_S23_Ultra") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 1070$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1070$");
         }
         else if (tanlanganModelSAM.equals("Samsung Z Flip 5") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 1000$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1000$");
         } else if (tanlanganModelSAM.equals("Samsung Z Flip 5") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 1020$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1020$");
         } else if (tanlanganModelSAM.equals("Samsung Z Flip 5") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 1040$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1040$");
 
         }
         else if (tanlanganModelSAM.equals("Samsung_Z_Fold_5") && tanlanganXotiraSAM == 64) {
-            System.out.println("Telefon narxi 1500$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1500$");
         } else if (tanlanganModelSAM.equals("Samsung_Z_Fold_5") && tanlanganXotiraSAM == 128) {
-            System.out.println("Telefon narxi 1550$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1550$");
         } else if (tanlanganModelSAM.equals("Samsung_Z_Fold_5") && tanlanganXotiraSAM == 256) {
-            System.out.println("Telefon narxi 1600$");
+            System.out.print(
+                    til == 'e'
+                            ? NARX_CIQARISH_EN
+                            : til == 'r'
+                            ? NARX_CIQARISH_RU
+                            : NARX_CIQARISH_UZ
+            );
+            System.out.println(" 1600$");
         }
 
     }
